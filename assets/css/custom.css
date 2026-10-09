@@ -7,7 +7,7 @@
 .flip-grid .flip-placeholder{margin:0}
 /* 研究方向四张卡片：宽屏一行四张，中屏两张 */
 @media (min-width:1024px){.flip-areas .lg\:grid-cols-3{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (min-width:1280px){.flip-areas .lg\:grid-cols-3{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (min-width:1280px){.flip-areas .lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}
 /* 首页“负责人”“新闻”区块放宽 */
 #pi .max-w-prose,#news .max-w-prose{max-width:64rem;width:100%}
 /* 系统字体栈：中英文兼顾，不依赖任何在线字体 */
@@ -28,3 +28,16 @@ html:root{
 .flip-person__aff{color:#64748b;font-size:.9rem}
 .flip-person__links{margin-top:.5rem;font-size:.9rem}
 .flip-person__links a{color:#1d4ed8}
+
+/* 负责人照片 */
+.flip-pi-photo{width:100%;max-width:240px;border-radius:.75rem;box-shadow:0 1px 4px rgba(15,23,42,.15);background:#f1f5f9}
+/* 图片与图注 */
+.flip-fig{margin:1.25rem 0;text-align:center}
+.flip-fig img{max-width:100%;height:auto;margin:0 auto;border:1px solid #e2e8f0;border-radius:.5rem;background:#fff}
+.flip-fig figcaption{margin-top:.5rem;font-size:.88rem;color:#475569;line-height:1.5}
+.flip-figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;align-items:start}
+.flip-figs .flip-fig{margin:0}
+.flip-tag{display:inline-block;font-size:.78rem;font-weight:600;border-radius:.25rem;padding:.05rem .45rem;margin-left:.35rem;vertical-align:middle}
+.flip-tag--plan{color:#b45309;background:#fff7ed;border:1px solid #fdba74}
+.flip-tag--ext{color:#1d4ed8;background:#eff6ff;border:1px solid #93c5fd}
+.flip-tag--run{color:#047857;background:#ecfdf5;border:1px solid #6ee7b7}

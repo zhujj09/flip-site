@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       announcement:
-        text: "预览版 · 内容摘自学校个人主页，图片与组员信息待补"
+        text: "预览版 · 在读组员名单待补"
       title: "FLIP 课题组"
       text: |-
         **多相流 · 人工举升 · 智慧开采**<br>
@@ -34,29 +34,35 @@ sections:
       subtitle: ''
       text: ''
       items:
-        - name: 多相流理论建模和数值模拟
-          description: 井筒与管线多相流动理论建模、瞬态多相流模型与数值模拟。
+        - name: 井筒多相流与积液预测
+          description: 以段塞单元为核心的多倾角统一井筒模型、漂移流瞬态模型，以及 48 个积液模型的聚类优选。
           icon: hero/beaker
           gradient: from-blue-500 to-sky-600
-          topics: [瞬态多相流模型, 气液两相流型转化, 复杂井筒多相流]
+          topics: [统一井筒模型, 漂移流瞬态模型, 积液预测]
           url: research/#multiphase
-        - name: 人工举升装备和工艺
-          description: 电潜泵、柱塞、悬梁泵、气举等人工举升装备与工艺，以及采油系统优化设计。
-          icon: hero/cog-6-tooth
+        - name: 柱塞气举
+          description: 全周期柱塞动力学模型、OLGA 瞬态建模与合成工况数据、智能工况诊断与制度优化。
+          icon: hero/arrows-up-down
           gradient: from-indigo-500 to-blue-700
-          topics: [电潜泵, 柱塞气举, 悬梁泵, 气举]
-          url: research/#artificial-lift
-        - name: 深水及非常规采油工程
-          description: 深海电潜泵油气混输、气井排水采气与煤岩气采气工艺等。
-          icon: hero/globe-asia-australia
+          topics: [全周期模型, 工况诊断, 制度优化]
+          url: research/#plunger
+        - name: 电潜泵气液两相举升
+          description: 旋转叶轮内气泡、流型与增压退化机理，喘振/气锁边界，高粘、乳化与含砂工况，深海电潜泵瞬态多相流。
+          icon: hero/cog-6-tooth
           gradient: from-cyan-600 to-teal-700
-          topics: [深海油气混输, 气井积液, 煤岩气采气工艺]
-          url: research/#deepwater
-        - name: 深度学习算法在油气开采领域运用
-          description: 油气田生产数据挖掘、工况诊断与异常检测、管道内检测数据智能识别。
+          topics: [流型转化, QBM 增压模型, 深海电潜泵]
+          url: research/#esp
+        - name: 射流泵与气举
+          description: 同心双管水力射流泵两相/三相机理模型与气阻临界条件；气举启动压力、气举阀与耦合井筒计算。
+          icon: hero/arrow-trending-up
+          gradient: from-sky-600 to-indigo-700
+          topics: [射流泵, 气阻边界, 气举]
+          url: research/#jetpump
+        - name: 智慧开采：AI 与物理信息瞬态建模
+          description: 机理模型与现场数据融合的工况诊断、寿命预测与制度优化；PI-DeepONet、XPINN 快速瞬态计算。
           icon: hero/cpu-chip
           gradient: from-slate-600 to-slate-800
-          topics: [工况诊断, 异常检测, 漏磁内检测, 智能优化]
+          topics: [智能诊断, PI-DeepONet, XPINN]
           url: research/#ai
     design:
       layout: cards
@@ -68,12 +74,12 @@ sections:
       title: 课题组负责人
       text: |-
         <div class="grid md:grid-cols-4 gap-6 items-start not-prose">
-        <div>{{< placeholder label="待补：负责人照片" h="220" >}}{{< /placeholder >}}</div>
+        <div><img src="{{< u "uploads/people/zhujianjun.jpg" >}}" alt="朱建军" class="flip-pi-photo"></div>
         <div class="md:col-span-3 prose dark:prose-invert max-w-none">
 
-        **朱建军**，博士，副教授；学术型硕导、博士生导师、工程博导；校青年拔尖人才。
+        **朱建军**，博士，副教授，机械工程学院副院长；学术型硕导、博士生导师、工程博导；校青年拔尖人才。
 
-        长期从事多相流动理论建模、人工举升采油系统优化设计，以及油气田生产数据挖掘。入选 Elsevier 与斯坦福大学全球前2%科学家榜单（单年度，2025–2026）。
+        长期从事多相流动理论建模、人工举升采油系统优化设计，以及油气田生产数据挖掘。2012–2017 年在美国塔尔萨大学获石油工程博士学位，2017–2019 年任塔尔萨大学人工举升项目组（TUALP）助理研究员，2019 年起任教于中国石油大学（北京）。入选 Elsevier 与斯坦福大学全球前2%科学家榜单（单年度，2025–2026）。
 
         课题组与东南大学机械工程学院王建立教授（共同负责人，co-PI）共同指导学生。
 
@@ -89,7 +95,14 @@ sections:
     content:
       title: 新闻动态
       text: |-
-        {{< placeholder label="待补：课题组新闻" h="120" >}}学校个人主页上没有新闻条目。请提供近期新闻（标题、日期、简短说明、可选配图），上线后按时间倒序显示。{{< /placeholder >}}
+        - **2026-10** 朱建军作「排水采气技术研究进展与成果交流」企业技术交流报告。
+        - **2026-09** 朱建军受聘《石油机械》第三届青年编委会委员（聘期 2027–2028）。
+        - **2026-09** 朱建军担任第二届高端油气装备技术论坛分论坛主持人。
+        - **2026-03** 软件著作权「水平气井瞬态计算软件 V1.0」获登记（2026SR0412776）。
+        - **2025-12** 朱建军获 Petroleum Science「荣誉青年编委」。
+        - **2025-11** 中国石油迪拜研究院委托项目「智能电潜泵管理系统 V1.0」通过验收。
+
+        [更多新闻 →]({{< u "news/" >}})
     design:
       columns: '1'
 ---

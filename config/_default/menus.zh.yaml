@@ -5,6 +5,7 @@ main:
   - {name: 论文, url: /publications/, weight: 40}
   - {name: 科研项目, url: /projects/, weight: 50}
   - {name: 实验平台, url: /facilities/, weight: 60}
+  - {name: 软件, url: /software/, weight: 65}
   - {name: 新闻, url: /news/, weight: 70}
   - {name: 招生, url: /join/, weight: 80}
   - {name: 联系, url: /contact/, weight: 90}
