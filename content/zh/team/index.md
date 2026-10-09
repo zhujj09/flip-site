@@ -42,7 +42,7 @@ date: 2026-10-09
 {{< student name="余泉" deg="硕士研究生" photo="uploads/students/yuquan.jpg" >}}页岩气井分钟级生产数据异常工况诊断{{< /student >}}
 {{< student name="李晓茜" deg="硕士研究生" photo="uploads/students/lixiaoqian.jpg" >}}致密气井间歇生产排液 OLGA 模拟{{< /student >}}
 {{< student name="卓锦炀" deg="硕士研究生" photo="uploads/students/zhuojinyang.jpg" >}}电潜泵气液两相流 CFD{{< /student >}}
-{{< student name="张圳玙" deg="硕士研究生" photo="uploads/students/zhangzhenyu.jpg" >}}CO₂ 长输管道运输模型{{< /student >}}
+{{< student name="张圳坎" deg="硕士研究生" photo="uploads/students/zhangzhenyu.jpg" >}}CO₂ 长输管道运输模型{{< /student >}}
 </div>
 
 ### 与东南大学王建立教授共同培养 {#co-supervised}
