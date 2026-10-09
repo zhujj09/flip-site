@@ -158,3 +158,8 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .flip-pi-brief__photo{width:96px;height:120px;object-fit:cover;border-radius:.5rem;flex:none}
 .flip-pi-brief p{margin:.25rem 0}
 .flip-pi-brief a{color:#1d4ed8}
+.flip-alumni{list-style:none;padding:0;margin:.5rem 0 2rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:.1rem 2rem}
+.flip-alumni li{padding:.45rem 0;border-bottom:1px solid #e2e8f0;color:#475569;font-size:.95rem}
+.flip-alumni b{color:#0f172a}
+.flip-alumni span{color:#64748b;font-size:.85rem;margin-right:.35rem}
+.dark .flip-alumni li{border-color:#334155;color:#cbd5e1}.dark .flip-alumni b{color:#f1f5f9}

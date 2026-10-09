@@ -47,18 +47,18 @@ date: 2026-10-09
 
 ### 已毕业 {#alumni}
 
-<div class="flip-students not-prose">
-{{< student name="贾皓" deg="硕士研究生" >}}气井积液预测聚类优选与卷积神经网络预测{{< /student >}}
-{{< student name="李圆圆" deg="硕士研究生" >}}离心泵性能曲线拐点特征识别泵内气液流型{{< /student >}}
-{{< student name="陈硕" deg="硕士研究生" >}}卷积神经网络柱塞举升异常工况诊断{{< /student >}}
-{{< student name="高雪" deg="硕士研究生" >}}级联深度学习识别管道漏磁信号{{< /student >}}
-{{< student name="贾毓江" deg="硕士研究生" >}}VAE 柱塞举升数据增强与异常检测{{< /student >}}
-{{< student name="张晓程" deg="硕士研究生" >}}模态分解分析电潜泵内气液两相流动{{< /student >}}
-{{< student name="李敖东" deg="硕士研究生" >}}井下射流泵气液两相流 CFD 与特征参数优化{{< /student >}}
-{{< student name="刘昱君" deg="硕士研究生" >}}柱塞举升智能诊断与优化{{< /student >}}
-{{< student name="冯龙" deg="研究生" >}}研究方向未核实{{< /student >}}
-{{< student name="周杭" deg="研究生" >}}研究方向未核实{{< /student >}}
-</div>
+<ul class="flip-alumni not-prose">
+  <li><b>贾皓</b><span>（硕士研究生）</span> 气井积液预测聚类优选与卷积神经网络预测</li>
+  <li><b>李圆圆</b><span>（硕士研究生）</span> 离心泵性能曲线拐点特征识别泵内气液流型</li>
+  <li><b>陈硕</b><span>（硕士研究生）</span> 卷积神经网络柱塞举升异常工况诊断</li>
+  <li><b>高雪</b><span>（硕士研究生）</span> 级联深度学习识别管道漏磁信号</li>
+  <li><b>贾毓江</b><span>（硕士研究生）</span> VAE 柱塞举升数据增强与异常检测</li>
+  <li><b>张晓程</b><span>（硕士研究生）</span> 模态分解分析电潜泵内气液两相流动</li>
+  <li><b>李敖东</b><span>（硕士研究生）</span> 井下射流泵气液两相流 CFD 与特征参数优化</li>
+  <li><b>刘昱君</b><span>（硕士研究生）</span> 柱塞举升智能诊断与优化</li>
+  <li><b>冯龙</b><span>（研究生）</span> 研究方向未核实</li>
+  <li><b>周杭</b><span>（研究生）</span> 研究方向未核实</li>
+</ul>
 
 ### 与东南大学王建立教授共同培养 {#co-supervised}
 
