@@ -33,7 +33,7 @@ date: 2026-10-09
 <div class="flip-students not-prose">
 {{< student name="秦孜艺" deg="博士研究生" >}}气井井筒与管道气液两相流机理模型，以及页岩气井、柱塞井生产异常工况的智能诊断{{< /student >}}
 {{< student name="武煜晰" deg="博士研究生" >}}电潜泵油气（水）多相流扬程一维机理模型与 CFD{{< /student >}}
-{{< student name="贾皓" deg="博士研究生" >}}研究方向未核实{{< /student >}}
+{{< student name="贾皓" deg="博士研究生" >}}铀矿地浸装备、人工举升等{{< /student >}}
 {{< student name="南子彬" deg="硕士研究生" >}}全金属单螺杆泵气液混输流场模拟与结构参数优化{{< /student >}}
 {{< student name="程玉妮" deg="硕士研究生" >}}FLNG 液化模块多源耦合激励动力响应{{< /student >}}
 {{< student name="李佳宁" deg="硕士研究生" >}}管道瞬态气液两相流：漂移流模型、X-PINN 重构{{< /student >}}
