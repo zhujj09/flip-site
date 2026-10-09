@@ -42,8 +42,36 @@ html:root{
 .flip-tag--ext{color:#1d4ed8;background:#eff6ff;border:1px solid #93c5fd}
 .flip-tag--run{color:#047857;background:#ecfdf5;border:1px solid #6ee7b7}
 
-/* 页眉横版 logo（B2），深色模式切深底版 */
-.navbar-brand .flip-brand{height:44px;width:auto;max-width:min(300px,62vw);object-fit:contain;display:block}
+/* 页眉 logo（B2）：图形 + FLIP + 英文全称（SVG，flip-lockup），中文名称用文字；深色模式切深底版 */
+.navbar-brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.navbar-brand .flip-brand{height:60px;width:auto;max-width:none;display:block;flex:none}
 .navbar-brand .flip-brand--dark{display:none}
 html.dark .navbar-brand .flip-brand--light{display:none}
 html.dark .navbar-brand .flip-brand--dark{display:block}
+.flip-brand-cn{display:none;flex-direction:column;justify-content:center;gap:3px;padding-left:14px;border-left:1px solid #CBD5E1;white-space:nowrap;line-height:1.3}
+.flip-brand-cn__name{font-size:15px;font-weight:600;color:#102A4C;letter-spacing:.02em}
+.flip-brand-cn__org{font-size:14px;font-weight:400;color:#475569}
+html.dark .flip-brand-cn{border-left-color:#475569}
+html.dark .flip-brand-cn__name{color:#F8FAFC}
+html.dark .flip-brand-cn__org{color:#CBD5E1}
+/* 中文名称：宽屏（≥1280，页眉已达内容栏全宽）与平板（840–1023，菜单折叠）显示；其余宽度只显示 logo，避免挤压菜单 */
+@media (min-width:840px) and (max-width:1023.98px),(min-width:1280px){.flip-brand-cn{display:flex}}
+/* 页眉内容与正文共用同一居中栏（max-w-screen-xl = 1280px）：logo 贴栏左缘，菜单/语言贴栏右缘 */
+#site-header nav.navbar{max-width:1280px;margin-left:auto;margin-right:auto}
+/* 桌面菜单略收紧并靠右，给 logo 留位置；语言切换只显示地球图标（悬停有提示） */
+@media (min-width:1024px){
+  #nav-menu{margin-left:auto!important;margin-right:0!important}
+  #nav-menu .nav-link{font-size:15px;padding-left:6px;padding-right:6px}
+  #nav-menu>li{margin-left:0!important;margin-right:0!important}
+  #nav-menu>li+li{margin-left:4px!important}
+  #site-header [data-hb-language-chooser] span{display:none}
+  #site-header [data-hb-language-chooser]{padding-left:6px;padding-right:6px}
+  #site-header nav.navbar>.order-1{margin-left:8px}
+  #site-header nav.navbar>.order-1>div{margin-right:0}
+}
+/* 手机：logo 按屏宽缩放，不溢出 */
+@media (max-width:639.98px){
+  .navbar-brand .flip-brand{height:auto;width:min(300px,calc(100vw - 116px))}
+  #site-header [data-hb-language-chooser] span{display:none}
+  #site-header nav.navbar>.order-1>div{margin-right:8px}
+}

@@ -9,10 +9,11 @@
       <!-- Brand -->
       <a class="navbar-brand" href="{{ site.Home.RelPermalink }}" title="{{ $branding.site_title }}">
         {{/* FLIP：横版 logo，浅色/深色模式各一版（覆盖 blox navbar） */}}
-        {{- $lg := resources.Get "media/brand/flip-horizontal.svg" | fingerprint -}}
-        {{- $lgd := resources.Get "media/brand/flip-horizontal-dark.svg" | fingerprint -}}
-        <img class="flip-brand flip-brand--light" src="{{ $lg.RelPermalink }}" width="907" height="140" alt="FLIP 多相流、人工举升与智慧开采课题组" fetchpriority="high" decoding="async" />
-        <img class="flip-brand flip-brand--dark" src="{{ $lgd.RelPermalink }}" width="907" height="140" alt="FLIP 多相流、人工举升与智慧开采课题组" decoding="async" />
+        {{- $lg := resources.Get "media/brand/flip-lockup.svg" | fingerprint -}}
+        {{- $lgd := resources.Get "media/brand/flip-lockup-dark.svg" | fingerprint -}}
+        <img class="flip-brand flip-brand--light" src="{{ $lg.RelPermalink }}" width="345" height="60" alt="FLIP" fetchpriority="high" decoding="async" />
+        <img class="flip-brand flip-brand--dark" src="{{ $lgd.RelPermalink }}" width="345" height="60" alt="FLIP" decoding="async" />
+        <span class="flip-brand-cn"><span class="flip-brand-cn__name">多相流、人工举升与智慧开采课题组</span><span class="flip-brand-cn__org">中国石油大学（北京）</span></span>
         {{/* Display brand name */}}
         {{ if $show_title }}{{ $navbar_title }}{{ end }}
       </a>
