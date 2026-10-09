@@ -33,7 +33,7 @@ date: 2026-10-09
 <div class="flip-students not-prose">
 {{< student name="Qin Ziyi" deg="Ph.D. student" >}}Mechanistic models for gas–liquid two-phase flow in wellbores and pipelines; intelligent diagnosis of abnormal production in shale-gas and plunger-lift wells{{< /student >}}
 {{< student name="Wu Yuxi" deg="Ph.D. student" >}}One-dimensional mechanistic head model and CFD for ESP oil–gas(–water) multiphase flow{{< /student >}}
-{{< student name="Jia Hao" deg="Ph.D. student" >}}uranium in-situ leaching equipment, artificial lift, etc.{{< /student >}}
+{{< student name="Jia Hao" deg="Ph.D. student" photo="uploads/students/jiahao.jpg" >}}uranium in-situ leaching equipment, artificial lift, etc.{{< /student >}}
 {{< student name="Nan Zibin" deg="Master's student" >}}Gas–liquid multiphase CFD and structural optimization of all-metal single-screw pumps{{< /student >}}
 {{< student name="Cheng Yuni" deg="Master's student" >}}Dynamic response of FLNG liquefaction modules under multi-source coupled excitation{{< /student >}}
 {{< student name="Li Jianing" deg="Master's student" >}}Transient gas–liquid two-phase flow in pipelines: drift-flux model and X-PINN reconstruction{{< /student >}}
