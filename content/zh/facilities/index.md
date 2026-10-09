@@ -28,7 +28,7 @@ date: 2026-10-09
 环路主要参数：14 级径向式 TE-2700 电潜泵（538 系列）逐级测压；7.62 cm 两相闭式环路，24 m³ 分离器，分离器压力 345/689/1034 kPa；转速 1800–3500 rpm；介质为自来水和压缩空气，可注入 IPA 表面活性剂。可做两相、高粘、乳化、含砂等工况测试。
 
 <div class="flip-figs">
-{{< fig src="uploads/platforms/tualp-esp-loop-schematic.jpg" alt="TUALP 两相电潜泵环路示意" caption="TUALP 两相电潜泵环路示意（朱建军博士论文图 2.1）" >}}
+{{< fig src="uploads/platforms/tualp-esp-loop-schematic.jpg" alt="TUALP 两相电潜泵环路示意" caption="TUALP 两相电潜泵环路示意" >}}
 {{< fig src="uploads/platforms/tualp-esp-loop-photos.jpg" alt="TUALP 电潜泵实验管路与测试泵" caption="TUALP 实验管路、14 级测试泵结构与逐级测压点" >}}
 </div>
 
@@ -44,7 +44,7 @@ date: 2026-10-09
 - 16 通道 10 kHz 同步采集；振动或位移超限时 0.1 s 内联动停机。
 - 永磁同步电机加矢量变频调速，0–6000 rpm；流量 0–30 m³/h，压力 0.6–3.0 MPa。
 
-{{< fig src="uploads/platforms/multistage-pump-visual-planned.jpg" alt="多级离心泵可视化综合测试平台示意图（规划）" caption="平台示意图（摘自论证报告，规划方案，非实物）" >}}
+{{< fig src="uploads/platforms/multistage-pump-visual-planned.jpg" alt="多级离心泵可视化综合测试平台示意图（规划）" caption="平台示意图（规划方案，非实物）" >}}
 
 ## 气液混输起伏管路实验平台 {#gas-liquid-loop}
 

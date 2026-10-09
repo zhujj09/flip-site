@@ -70,7 +70,7 @@ date: 2026-10-09
 
 **王建立**，东南大学机械工程学院教授，博士生导师、硕士生导师；所在院系：设计科学系。
 
-<small>（本节内容均摘自[王建立的东南大学个人主页](https://me.seu.edu.cn/wjl/list.htm)，照片亦取自该页。）</small>
+<small>（本节内容均摘自[王建立的东南大学个人主页](https://me.seu.edu.cn/wjl/list.htm)。）</small>
 
 ### 简介
 
