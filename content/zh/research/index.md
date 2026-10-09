@@ -102,20 +102,24 @@ FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开
 
 ## 4. 水力射流泵排水采气机理与优化 {#jetpump}
 
-水平气井和致密气井进入中后期，地层能量下降、携液能力变差，水力射流泵井下无运动部件、对出砂和气体适应性强，是排水采气的可选工艺。难点在于气液两相进入喉管后容易出现气阻，泵效骤降，喷嘴与喉管参数也缺乏针对气井的设计方法。
+致密气井、水平气井进入中后期后地层能量下降、携液能力不足，井筒积液使产量快速递减。水力射流泵井下无运动部件，靠地面高压动力液驱动，对出砂、高气液比和深井适应性强，是排水采气的重要工艺；但气液两相进入喉管后易发生空化和气阻，泵效普遍偏低，喷嘴、喉管等结构参数也缺少面向气井的设计方法。
 
-**机理模型与气阻边界。** 课题组研究同心双管水力射流泵排水采气工艺，建立射流泵两相、三相流动机理模型和气阻临界边界，CFD 与机理模型压差互验误差在 12% 以内，并耦合井筒管流模型完成工艺设计计算。
+{{< fig src="uploads/research/jetpump-geometry.jpg" alt="同心双管水力射流泵三维模型与工作原理" caption="同心双管水力射流泵：泵体三维模型与内部剖面（左）；喷嘴–吸入室–喉管–扩散管结构及沿程压力分布（右）" >}}
 
-**参数优化与软件。** 用 CFD＋代理模型＋NSGA-II 多目标优化喷嘴、喉管等结构参数和工作参数，形成「射流泵智能化工况分析软件」，支持两相/三相计算、气阻校核和参数优选。
+**机理模型与气阻边界。** 课题组围绕同心双管水力射流泵排水采气工艺，基于喷嘴、喉管、扩散管各段能量方程，建立计入喷嘴损失和喉管–扩散管损失的单相、气液两相及气–水–油三相性能模型，分析面积比、动力液/井液密度比、气水比对压力恢复比和泵效的影响；引入空化比与临界速度比，给出不同动力液压力、吸入压力下的空化与声速临界边界，确定“未空化区”内的最佳流量比区间，并据此给出喷嘴–喉管面积比的优选、次选和不推荐范围，用于防气阻排采制度设计。
 
-{{< fig src="uploads/research/jet-pump-surface-flow.jpg" alt="同心双管水力射流泵排水采气地面流程" caption="同心双管水力射流泵排水采气地面流程" >}}
+{{< fig src="uploads/research/jetpump-performance.jpg" alt="射流泵气液两相性能曲线与空化临界预测" caption="气液两相射流泵性能：不同气水比下压力恢复比与效率随流量比的变化（左）；特定工况下效率、空化比与临界速度比预测，箭头指向未空化区（右）" >}}
 
-{{< fig src="uploads/research/jet-pump-software.jpg" alt="射流泵软件两相流功能界面" caption="射流泵智能化工况分析软件：不同气液比下的流量比–效率曲线" >}}
+**数值模拟与参数优化。** 依据现场井况建立射流泵三维流体域，采用 VOF 气液两相模型计算泵内压力、速度和含气率分布，与实验数据对比误差在 7.5% 以内，与机理模型压差互验误差在 12% 以内；以 CFD 样本训练 SVM（PSO、贝叶斯调参）代理模型，结合 NSGA-II 对面积比、喉嘴距、喉管长度、扩散角及动力液压力、吸入含气率协同优化：排液量由 42.05 m³/d 提升至 55.24 m³/d（+31.4%），泵效由 26.5% 提升至 30.5%。
+
+{{< fig src="uploads/research/jetpump-cfd.jpg" alt="优化前后射流泵压力与速度云图" caption="优化前后射流泵内压力云图（左两幅）与速度云图（右两幅）：优化后喉管入口负压更低、射流核心速度更高，气液卷吸与混合增强" >}}
+
+**工程应用。** 上述模型与优化方法已用于青海峁平 1 井等气井的射流泵排液工艺设计，并形成射流泵工况分析与参数优选计算程序，支持两相/三相计算、气阻校核和喷喉组合优选。
 
 <div class="flip-theme-pubs not-prose">
   <h4>代表性论文（1 篇）</h4>
   <ol>
-    <li><b>J ZHU</b>, A LI, Y JI, J PENG, Y ZHANG, H ZHU. Optimization of gas-liquid two-phase flow characteristic parameters in a concentric dual-tube hydraulic jet pump. <i>The Chinese Journal of Process Engineering 26 (3), 233-244</i>, 2026.</li>
+    <li><b>J Zhu</b>, A Li, Y Ji, J Peng, Y Zhang, H Zhu. <a href="https://doi.org/10.12034/j.issn.1009-606X.225156" target="_blank" rel="noopener">Optimization of gas-liquid two-phase flow characteristic parameters in a concentric dual-tube hydraulic jet pump</a>（同心双管水力射流泵气液两相流特征参数优化）. <i>The Chinese Journal of Process Engineering（过程工程学报）26 (3), 233-244</i>, 2026.</li>
   </ol>
 </div>
 
