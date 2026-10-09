@@ -49,7 +49,7 @@ date: 2026-10-09
 
 <div class="flip-students not-prose">
 {{< student name="张毓涵" deg="硕士研究生" >}}气井泡排剂加注优化：风险感知的强化学习决策智能体{{< /student >}}
-{{< student name="施骋昊" deg="硕士研究生" >}}气井泡排剂加注量的 Actor-Critic 强化学习推荐{{< /student >}}
+{{< student name="施骋昊" deg="硕士研究生" photo="uploads/students/shichenghao.jpg" >}}气井泡排剂加注量的 Actor-Critic 强化学习推荐{{< /student >}}
 {{< student name="李欣翼" deg="硕士研究生" >}}研究方向未核实{{< /student >}}
 </div>
 
