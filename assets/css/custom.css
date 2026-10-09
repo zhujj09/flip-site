@@ -78,3 +78,6 @@ html.dark .flip-brand-cn__org{color:#CBD5E1}
 /* 首页研究方向卡片：真实图片，不叠渐变、不降透明度 */
 .flip-areas .h-48{background:#fff!important}
 .flip-areas .h-48 img{opacity:1!important}
+/* 研究方向卡片图完整显示：框按 3:2，图片 contain 不裁切、不悬停放大 */
+.flip-areas .h-48{height:auto!important;aspect-ratio:3/2}
+.flip-areas .h-48 img{object-fit:contain!important;transform:none!important}
