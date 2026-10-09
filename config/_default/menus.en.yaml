@@ -2,8 +2,7 @@ main:
   - {name: Home, url: /en/, weight: 10}
   - {name: Research, url: /en/research/, weight: 20}
   - {name: Team, url: /en/team/, weight: 30}
-  - {name: Publications, url: /en/publications/, weight: 40}
-  - {name: Projects, url: /en/projects/, weight: 50}
+  - {name: Outputs, url: /en/outputs/, weight: 40}
   - {name: Facilities, url: /en/facilities/, weight: 60}
   - {name: News, url: /en/news/, weight: 70}
   - {name: Join Us, url: /en/join/, weight: 80}

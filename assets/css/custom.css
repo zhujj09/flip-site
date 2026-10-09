@@ -193,3 +193,11 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .flip-theme-nav{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin:2rem 0 1rem;padding-top:1.25rem;border-top:1px solid #e2e8f0;font-size:.92rem}
 .flip-theme-nav a{color:#1d4ed8;text-decoration:none}
 .flip-theme-nav a:hover{text-decoration:underline}
+
+/* 科研成果页 */
+.flip-out-toc{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin:0 0 1.5rem;padding:.6rem 0;border-bottom:1px solid #e2e8f0;font-size:.95rem}
+.flip-out-toc a{font-weight:600;text-decoration:none}
+.flip-out-publist .flip-out-year{margin:1.6rem 0 .4rem;font-size:1.1rem;color:#0b2545;border-bottom:1px solid #e2e8f0;padding-bottom:.2rem}
+.flip-out-publist .flip-out-pubs{margin-top:.3rem}
+.flip-out-publist .flip-out-pubs li{margin:.35rem 0;font-size:.93rem;line-height:1.55}
+.flip-out-figs{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
