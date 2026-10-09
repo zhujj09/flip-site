@@ -81,3 +81,59 @@ html.dark .flip-brand-cn__org{color:#CBD5E1}
 /* 研究方向卡片图完整显示：框按 3:2，图片 contain 不裁切、不悬停放大 */
 .flip-areas .h-48{height:auto!important;aspect-ratio:3/2}
 .flip-areas .h-48 img{object-fit:contain!important;transform:none!important}
+
+/* ===== 版式（参考 Stanford Smart Fields 的结构：统一 1200px 内容栏、标题左对齐、区块之间留白充足） ===== */
+:root{--flip-w:1280px;--flip-pad:clamp(20px,3vw,40px);--flip-sec:clamp(3.5rem,6vw,5rem)}
+/* 页眉与正文共用 1280px 栏（内容宽 1200px），左右内边距一致，logo 与正文左缘对齐 */
+#site-header nav.navbar{max-width:var(--flip-w)!important;padding-left:var(--flip-pad)!important;padding-right:var(--flip-pad)!important}
+@media (min-width:1024px){#site-header nav.navbar{flex-wrap:nowrap}#nav-menu .nav-link{white-space:nowrap}#nav-menu{flex-wrap:nowrap}}
+@media (min-width:1280px){#nav-menu .nav-link{padding-left:5px!important;padding-right:5px!important}#nav-menu>li+li{margin-left:2px!important}.navbar-brand{gap:12px}.flip-brand-cn{padding-left:12px}}
+
+/* —— 首页 —— */
+/* 研究方向区：同一内容栏，标题左对齐，卡片间距放大 */
+section#research>div{padding:var(--flip-sec) var(--flip-pad)!important}
+section#research .max-w-7xl{max-width:calc(var(--flip-w) - 2*var(--flip-pad))}
+section#research .text-center{text-align:left;max-width:none;margin:0 0 2.5rem}
+section#research h2{font-size:clamp(1.75rem,2.6vw,2.25rem);margin-bottom:0}
+section#research .grid{gap:clamp(1.5rem,3vw,2.75rem)}
+section#research .rounded-2xl{box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+section#research .p-6{padding:1.75rem 1.75rem 1.5rem}
+section#research h3{font-size:1.3rem;margin-bottom:.75rem}
+section#research h3+p{line-height:1.8;margin-bottom:1.25rem}
+section#research .mb-6{margin-bottom:.25rem}
+/* 区块标题统一：左对齐、带一条短色条 */
+section#research h2::after,section#pi>div>.text-3xl::after,section#news>div>.text-3xl::after{content:"";display:block;width:48px;height:3px;border-radius:2px;background:#1d4ed8;margin-top:.75rem}
+/* 负责人、新闻：从窄居中栏（65ch）改为与上面同宽、左对齐 */
+section#pi>div.flex,section#news>div.flex{max-width:var(--flip-w)!important;margin-left:auto!important;margin-right:auto!important;align-items:stretch!important;padding:var(--flip-sec) var(--flip-pad)!important;gap:0!important}
+section#pi>div>.text-3xl,section#news>div>.text-3xl{font-size:clamp(1.75rem,2.6vw,2.25rem);margin-bottom:2.25rem!important;line-height:1.2}
+section#pi .prose.max-w-prose,section#news .prose.max-w-prose{max-width:none!important;width:100%}
+section#pi .prose,section#news .prose{font-size:1.0625rem;line-height:1.85}
+section#pi .grid{gap:2.5rem;grid-template-columns:240px minmax(0,1fr)}
+section#pi .grid>.md\:col-span-3{grid-column:auto}
+section#pi .grid p{margin:0 0 1rem}
+@media (max-width:767.98px){section#pi .grid{grid-template-columns:1fr}}
+/* 负责人区块用极浅底色与上下区块分开（通栏） */
+section#pi{background:#f8fafc}
+html.dark section#pi{background:rgba(255,255,255,.03)}
+section#news ul{margin-top:0}
+section#news li{margin:.85rem 0;padding-left:.25rem}
+section#news .prose>p:last-child{margin-top:1.75rem}
+
+/* —— 内容页（研究方向、团队、项目等）—— */
+/* 宽屏去掉左侧空侧栏（桌面端里面没有内容，只占 256px 空白） */
+@media (min-width:1024px){.page-body .hb-sidebar-container{display:none!important}}
+.page-body>.max-w-screen-xl{max-width:var(--flip-w);padding-left:var(--flip-pad);padding-right:var(--flip-pad)}
+/* 正文靠左对齐到内容栏左缘，不再在剩余空间里居中 */
+.page-body article{justify-content:flex-start!important;padding-right:0!important}
+.page-body article>main{max-width:none!important;padding-left:0!important;padding-right:0!important}
+@media (min-width:1280px){.page-body article>main{padding-right:3.5rem!important}}
+/* 正文字号由 prose-xl（20px）降到 17px，行宽放到约 52 个汉字，行距加大 */
+.page-body article .prose{max-width:52rem;font-size:1.0625rem;line-height:1.85}
+.page-body article .prose :where(h2){margin-top:2.75em;margin-bottom:.9em}
+.page-body article .prose :where(h3){margin-top:2em}
+.page-body article .prose :where(p,ul,ol){margin-top:.9em;margin-bottom:.9em}
+.page-body article h1+div{margin-bottom:2.5rem!important}
+/* 右侧目录收窄 */
+.page-body .hb-toc{width:15rem;padding-right:0}
+/* 英文页菜单较长：桌面端只显示 logo，不显示中文名称，避免与菜单挤在一起 */
+@media (min-width:1024px){html[lang^="en"] .flip-brand-cn{display:none!important}}
