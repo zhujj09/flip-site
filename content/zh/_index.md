@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       announcement:
-        text: "预览版 · 在读组员名单待补"
+        text: "预览版"
       title: "FLIP 课题组"
       text: |-
         **多相流 · 人工举升 · 智慧开采**<br>
