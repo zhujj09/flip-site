@@ -201,3 +201,4 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .flip-out-publist .flip-out-pubs{margin-top:.3rem}
 .flip-out-publist .flip-out-pubs li{margin:.35rem 0;font-size:.93rem;line-height:1.55}
 .flip-out-figs{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.flip-out-proj td:last-child,.flip-out-proj th:last-child{white-space:nowrap}
