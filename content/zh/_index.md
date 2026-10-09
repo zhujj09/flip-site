@@ -37,18 +37,21 @@ sections:
         - name: 多相流
           description: 井筒多相流统一模型与漂移流瞬态模型，气井积液预测与模型优选。
           icon: hero/beaker
+          image: research/multiphase.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-blue-500 to-sky-600
           topics: [统一井筒模型, 漂移流瞬态, 积液预测]
           url: research/#multiphase
         - name: 人工举升
           description: 电潜泵气液两相举升机理与增压模型；柱塞气举、射流泵与气举的机理建模和设计计算。
           icon: hero/arrows-up-down
+          image: research/lift.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-indigo-500 to-blue-700
           topics: [电潜泵, 柱塞气举, 射流泵与气举]
           url: research/#esp
         - name: 智慧开采
           description: 机理模型与现场数据融合的工况诊断、寿命预测与制度优化；物理信息神经网络快速瞬态计算。
           icon: hero/cpu-chip
+          image: research/smart.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-slate-600 to-slate-800
           topics: [智能诊断, 制度优化, PI-DeepONet / XPINN]
           url: research/#ai

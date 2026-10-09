@@ -75,3 +75,6 @@ html.dark .flip-brand-cn__org{color:#CBD5E1}
   #site-header [data-hb-language-chooser] span{display:none}
   #site-header nav.navbar>.order-1>div{margin-right:8px}
 }
+/* 首页研究方向卡片：真实图片，不叠渐变、不降透明度 */
+.flip-areas .h-48{background:#fff!important}
+.flip-areas .h-48 img{opacity:1!important}

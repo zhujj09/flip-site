@@ -71,3 +71,7 @@ npm-debug.log*
 # FLIP 预览：本地抓取的原始资料与截图不入库
 src_raw/
 screens/
+
+# 候选图与 PPT 原件不入库
+candidates/
+_src/
