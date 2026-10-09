@@ -31,18 +31,18 @@ date: 2026-10-09
 ### Current {#members}
 
 <div class="flip-students not-prose">
-{{< student name="Qin Ziyi" deg="Ph.D. student" >}}Mechanistic models for gas–liquid two-phase flow in wellbores and pipelines; intelligent diagnosis of abnormal production in shale-gas and plunger-lift wells{{< /student >}}
-{{< student name="Wu Yuxi" deg="Ph.D. student" >}}One-dimensional mechanistic head model and CFD for ESP oil–gas(–water) multiphase flow{{< /student >}}
+{{< student name="Qin Ziyi" deg="Ph.D. student" photo="uploads/students/qinziyi.jpg" >}}Mechanistic models for gas–liquid two-phase flow in wellbores and pipelines; intelligent diagnosis of abnormal production in shale-gas and plunger-lift wells{{< /student >}}
+{{< student name="Wu Yuxi" deg="Ph.D. student" photo="uploads/students/wuyuxi.jpg" >}}One-dimensional mechanistic head model and CFD for ESP oil–gas(–water) multiphase flow{{< /student >}}
 {{< student name="Jia Hao" deg="Ph.D. student" photo="uploads/students/jiahao.jpg" >}}uranium in-situ leaching equipment, artificial lift, etc.{{< /student >}}
-{{< student name="Nan Zibin" deg="Master's student" >}}Gas–liquid multiphase CFD and structural optimization of all-metal single-screw pumps{{< /student >}}
-{{< student name="Cheng Yuni" deg="Master's student" >}}Dynamic response of FLNG liquefaction modules under multi-source coupled excitation{{< /student >}}
-{{< student name="Li Jianing" deg="Master's student" >}}Transient gas–liquid two-phase flow in pipelines: drift-flux model and X-PINN reconstruction{{< /student >}}
-{{< student name="Li Jinhua" deg="Master's student" >}}CFD of oil–water and gas–liquid two-phase flow in ESPs (VOF, emulsification){{< /student >}}
-{{< student name="Qin Shengjie" deg="Master's student" >}}Hydraulic design and automated CFD optimization of wide-range offshore ESP impellers and diffusers{{< /student >}}
-{{< student name="Yu Quan" deg="Master's student" >}}Minute-scale production-data diagnosis of abnormal conditions in shale-gas wells{{< /student >}}
-{{< student name="Li Xiaoqian" deg="Master's student" >}}OLGA simulation of intermittent production and liquid unloading in tight-gas wells{{< /student >}}
-{{< student name="Zhuo Jinyang" deg="Master's student" >}}CFD of gas–liquid two-phase flow in ESPs{{< /student >}}
-{{< student name="Zhang Zhenyu" deg="Master's student" >}}CO₂ long-distance pipeline transport modeling{{< /student >}}
+{{< student name="Nan Zibin" deg="Master's student" photo="uploads/students/nanzibin.jpg" >}}Gas–liquid multiphase CFD and structural optimization of all-metal single-screw pumps{{< /student >}}
+{{< student name="Cheng Yuni" deg="Master's student" photo="uploads/students/chengyuni.jpg" >}}Dynamic response of FLNG liquefaction modules under multi-source coupled excitation{{< /student >}}
+{{< student name="Li Jianing" deg="Master's student" photo="uploads/students/lijianing.jpg" >}}Transient gas–liquid two-phase flow in pipelines: drift-flux model and X-PINN reconstruction{{< /student >}}
+{{< student name="Li Jinhua" deg="Master's student" photo="uploads/students/lijinhua.jpg" >}}CFD of oil–water and gas–liquid two-phase flow in ESPs (VOF, emulsification){{< /student >}}
+{{< student name="Qin Shengjie" deg="Master's student" photo="uploads/students/qinshengjie.jpg" >}}Hydraulic design and automated CFD optimization of wide-range offshore ESP impellers and diffusers{{< /student >}}
+{{< student name="Yu Quan" deg="Master's student" photo="uploads/students/yuquan.jpg" >}}Minute-scale production-data diagnosis of abnormal conditions in shale-gas wells{{< /student >}}
+{{< student name="Li Xiaoqian" deg="Master's student" photo="uploads/students/lixiaoqian.jpg" >}}OLGA simulation of intermittent production and liquid unloading in tight-gas wells{{< /student >}}
+{{< student name="Zhuo Jinyang" deg="Master's student" photo="uploads/students/zhuojinyang.jpg" >}}CFD of gas–liquid two-phase flow in ESPs{{< /student >}}
+{{< student name="Zhang Zhenyu" deg="Master's student" photo="uploads/students/zhangzhenyu.jpg" >}}CO₂ long-distance pipeline transport modeling{{< /student >}}
 </div>
 
 ### Co-supervised with Prof. Jianli Wang (Southeast University) {#co-supervised}

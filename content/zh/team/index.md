@@ -31,18 +31,18 @@ date: 2026-10-09
 ### 在读 {#members}
 
 <div class="flip-students not-prose">
-{{< student name="秦孜艺" deg="博士研究生" >}}气井井筒与管道气液两相流机理模型，以及页岩气井、柱塞井生产异常工况的智能诊断{{< /student >}}
-{{< student name="武煜晰" deg="博士研究生" >}}电潜泵油气（水）多相流扬程一维机理模型与 CFD{{< /student >}}
+{{< student name="秦孜艺" deg="博士研究生" photo="uploads/students/qinziyi.jpg" >}}气井井筒与管道气液两相流机理模型，以及页岩气井、柱塞井生产异常工况的智能诊断{{< /student >}}
+{{< student name="武煜晰" deg="博士研究生" photo="uploads/students/wuyuxi.jpg" >}}电潜泵油气（水）多相流扬程一维机理模型与 CFD{{< /student >}}
 {{< student name="贾皓" deg="博士研究生" photo="uploads/students/jiahao.jpg" >}}铀矿地浸装备、人工举升等{{< /student >}}
-{{< student name="南子彬" deg="硕士研究生" >}}全金属单螺杆泵气液混输流场模拟与结构参数优化{{< /student >}}
-{{< student name="程玉妮" deg="硕士研究生" >}}FLNG 液化模块多源耦合激励动力响应{{< /student >}}
-{{< student name="李佳宁" deg="硕士研究生" >}}管道瞬态气液两相流：漂移流模型、X-PINN 重构{{< /student >}}
-{{< student name="李进华" deg="硕士研究生" >}}电潜泵内油水、气液两相流 CFD{{< /student >}}
-{{< student name="秦胜杰" deg="硕士研究生" >}}海上宽幅电潜泵叶轮/导轮水力设计与 CFD 自动优化{{< /student >}}
-{{< student name="余泉" deg="硕士研究生" >}}页岩气井分钟级生产数据异常工况诊断{{< /student >}}
-{{< student name="李晓茜" deg="硕士研究生" >}}致密气井间歇生产排液 OLGA 模拟{{< /student >}}
-{{< student name="卓锦炀" deg="硕士研究生" >}}电潜泵气液两相流 CFD{{< /student >}}
-{{< student name="张圳玙" deg="硕士研究生" >}}CO₂ 长输管道运输模型{{< /student >}}
+{{< student name="南子彬" deg="硕士研究生" photo="uploads/students/nanzibin.jpg" >}}全金属单螺杆泵气液混输流场模拟与结构参数优化{{< /student >}}
+{{< student name="程玉妮" deg="硕士研究生" photo="uploads/students/chengyuni.jpg" >}}FLNG 液化模块多源耦合激励动力响应{{< /student >}}
+{{< student name="李佳宁" deg="硕士研究生" photo="uploads/students/lijianing.jpg" >}}管道瞬态气液两相流：漂移流模型、X-PINN 重构{{< /student >}}
+{{< student name="李进华" deg="硕士研究生" photo="uploads/students/lijinhua.jpg" >}}电潜泵内油水、气液两相流 CFD{{< /student >}}
+{{< student name="秦胜杰" deg="硕士研究生" photo="uploads/students/qinshengjie.jpg" >}}海上宽幅电潜泵叶轮/导轮水力设计与 CFD 自动优化{{< /student >}}
+{{< student name="余泉" deg="硕士研究生" photo="uploads/students/yuquan.jpg" >}}页岩气井分钟级生产数据异常工况诊断{{< /student >}}
+{{< student name="李晓茜" deg="硕士研究生" photo="uploads/students/lixiaoqian.jpg" >}}致密气井间歇生产排液 OLGA 模拟{{< /student >}}
+{{< student name="卓锦炀" deg="硕士研究生" photo="uploads/students/zhuojinyang.jpg" >}}电潜泵气液两相流 CFD{{< /student >}}
+{{< student name="张圳玙" deg="硕士研究生" photo="uploads/students/zhangzhenyu.jpg" >}}CO₂ 长输管道运输模型{{< /student >}}
 </div>
 
 ### 与东南大学王建立教授共同培养 {#co-supervised}
