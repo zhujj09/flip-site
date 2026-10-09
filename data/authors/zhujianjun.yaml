@@ -1,0 +1,43 @@
+schema: hugoblox/author/v1
+slug: zhujianjun
+is_owner: true
+name:
+  display: 朱建军
+  given: 建军
+  family: 朱
+  alternate: Jianjun Zhu
+postnominals:
+  - 博士
+role: 副教授；学术型硕导、博士生导师、工程博导
+bio: |
+  校青年拔尖人才。长期从事多相流动理论建模、人工举升采油系统优化设计，以及油气田生产数据挖掘。
+affiliations:
+  - name: 中国石油大学（北京）机械工程学院 / 能源装备研究所
+    url: https://faculty.cup.edu.cn/zhujianjun/index.html
+links:
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en
+    label: Google Scholar
+  - icon: hero/link
+    url: https://faculty.cup.edu.cn/zhujianjun/index.html
+    label: 学校个人主页
+interests:
+  - 多相流理论建模和数值模拟
+  - 人工举升装备和工艺
+  - 深水及非常规采油工程
+  - 深度学习算法在油气开采领域运用
+education:
+  - degree: 博士研究生（石油工程）
+    institution: 美国塔尔萨大学
+    start: 2012-08-01
+    end: 2017-05-31
+  - degree: 硕士研究生（动力工程及工程热物理）
+    institution: 清华大学
+    start: 2009-09-01
+    end: 2012-07-31
+  - degree: 大学本科（热能与动力工程）
+    institution: 北京科技大学
+    start: 2005-09-01
+    end: 2009-07-31
+user_groups:
+  - 指导教师

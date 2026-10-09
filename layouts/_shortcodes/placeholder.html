@@ -1,0 +1,7 @@
+{{- /* 明显的待补占位块：{{< placeholder label="待补：组员照片" h="180" >}}说明{{< /placeholder >}} */ -}}
+{{- $label := .Get "label" | default "待补" -}}
+{{- $h := .Get "h" | default "140" -}}
+<div class="flip-placeholder not-prose" style="min-height:{{ $h }}px">
+  <div class="flip-placeholder__label">{{ $label }}</div>
+  {{- with .Inner }}<div class="flip-placeholder__note">{{ . | markdownify }}</div>{{ end -}}
+</div>

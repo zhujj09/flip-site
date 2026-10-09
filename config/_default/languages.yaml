@@ -1,0 +1,13 @@
+# 多语言配置：中文为默认语言（根路径 /），英文版在 /en/ 下，内容目录分开放置。
+zh:
+  locale: zh-Hans
+  label: 中文
+  weight: 1
+  contentDir: content/zh
+  title: FLIP 课题组
+en:
+  locale: en-us
+  label: English
+  weight: 2
+  contentDir: content/en
+  title: FLIP Research Group

@@ -1,0 +1,12 @@
+.flip-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;
+  border:2px dashed #94a3b8;background:repeating-linear-gradient(45deg,#f1f5f9,#f1f5f9 12px,#e2e8f0 12px,#e2e8f0 24px);
+  border-radius:.5rem;color:#475569;text-align:center;padding:1rem;margin:1rem 0}
+.flip-placeholder__label{font-weight:700;font-size:1.05rem;color:#b45309;background:#fff7ed;border:1px solid #fdba74;border-radius:.375rem;padding:.15rem .6rem}
+.flip-placeholder__note{font-size:.9rem;max-width:42rem}
+.flip-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem}
+.flip-grid .flip-placeholder{margin:0}
+/* 研究方向四张卡片：宽屏一行四张，中屏两张 */
+@media (min-width:1024px){.flip-areas .lg\:grid-cols-3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1280px){.flip-areas .lg\:grid-cols-3{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* 首页“负责人”“新闻”区块放宽 */
+#pi .max-w-prose,#news .max-w-prose{max-width:64rem;width:100%}
