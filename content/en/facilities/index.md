@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /platforms/
 title: "Facilities"
 date: 2026-10-09
 ---

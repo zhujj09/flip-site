@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /platforms/
 title: 实验平台
 date: 2026-10-09
 ---

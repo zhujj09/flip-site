@@ -4,6 +4,7 @@ date: 2026-10-09
 aliases:
   - /join/
   - /contact/
+  - /admission/
 ---
 
 ## 招生 {#admissions}
