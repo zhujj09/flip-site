@@ -2,6 +2,15 @@
 
   {{ partial "functions/get_hook" (dict "hook" "footer-start" "context" .) }}
 
+  {{/* FLIP：全站页脚一行联系方式 */}}
+  <p class="flip-footer-contact text-center">
+    {{- if eq site.Language.Lang "en" -}}
+    Email: <a href="mailto:jianjun-zhu@cup.edu.cn">jianjun-zhu@cup.edu.cn</a>&nbsp;&nbsp;|&nbsp;&nbsp;Address: College of Mechanical and Transportation Engineering, China University of Petroleum (Beijing), 18 Fuxue Road, Changping, Beijing 102249
+    {{- else -}}
+    邮箱：<a href="mailto:jianjun-zhu@cup.edu.cn">jianjun-zhu@cup.edu.cn</a>&nbsp;&nbsp;|&nbsp;&nbsp;地址：北京市昌平区府学路18号 中国石油大学（北京）机械工程学院，102249
+    {{- end -}}
+  </p>
+
   {{/* Load footer block */}}
   {{- $footer_config := site.Params.hugoblox.footer | default dict -}}
   {{- $footer_section_name := partial "hbx/resolve-block-param" (dict "config" $footer_config "context" "footer") | default "minimal" -}}

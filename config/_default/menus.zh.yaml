@@ -5,5 +5,4 @@ main:
   - {name: 科研成果, url: /outputs/, weight: 40}
   - {name: 实验平台, url: /facilities/, weight: 60}
   - {name: 新闻, url: /news/, weight: 70}
-  - {name: 招生, url: /join/, weight: 80}
-  - {name: 联系, url: /contact/, weight: 90}
+  - {name: 加入我们, url: /join-us/, weight: 80}

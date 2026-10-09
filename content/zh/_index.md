@@ -20,7 +20,7 @@ sections:
         icon: hero/arrow-right
       secondary_action:
         text: 加入我们
-        url: /join/
+        url: /join-us/
     design:
       css_class: "flip-hero"
       css_style: "background-image:url('uploads/hero-placeholder.svg');background-size:cover;background-position:center;"

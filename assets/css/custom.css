@@ -202,3 +202,8 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .flip-out-publist .flip-out-pubs li{margin:.35rem 0;font-size:.93rem;line-height:1.55}
 .flip-out-figs{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .flip-out-proj td:last-child,.flip-out-proj th:last-child{white-space:nowrap}
+
+/* 页脚联系方式一行 */
+.flip-footer-contact{margin:0 auto 0.5rem;padding:0 1rem;font-size:13px;color:#64748b}
+.flip-footer-contact a{color:inherit;text-decoration:none}
+.flip-footer-contact a:hover{text-decoration:underline}

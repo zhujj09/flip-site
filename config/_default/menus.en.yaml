@@ -5,5 +5,4 @@ main:
   - {name: Outputs, url: /en/outputs/, weight: 40}
   - {name: Facilities, url: /en/facilities/, weight: 60}
   - {name: News, url: /en/news/, weight: 70}
-  - {name: Join Us, url: /en/join/, weight: 80}
-  - {name: Contact, url: /en/contact/, weight: 90}
+  - {name: Join Us, url: /en/join-us/, weight: 80}
