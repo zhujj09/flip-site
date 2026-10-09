@@ -40,21 +40,21 @@ sections:
           image: research/multiphase.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-blue-500 to-sky-600
           topics: [稳态统一模型, 瞬态漂移流, 积液判断]
-          url: research/#wellbore
+          url: research/wellbore/
         - name: 人工举升
           description: 电潜泵气液两相增压模型与诊断；柱塞举升瞬态模型与制度优化；射流泵机理模型与参数优化。
           icon: hero/arrows-up-down
           image: research/lift.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-indigo-500 to-blue-700
           topics: [电潜泵, 柱塞举升, 射流泵]
-          url: research/#esp
+          url: research/esp/
         - name: 智慧开采
           description: 机理模型与现场数据融合的电潜泵、柱塞井工况智能诊断；管道漏磁内检测数据的缺陷识别与量化。
           icon: hero/cpu-chip
           image: research/smart.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-slate-600 to-slate-800
           topics: [工况智能诊断, 漏磁缺陷识别, 数据样本生成]
-          url: research/#mfl
+          url: research/mfl/
     design:
       layout: cards
       css_class: "flip-areas"
