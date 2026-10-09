@@ -90,6 +90,7 @@ hugoblox:
     search: false
     theme_toggle: false
     theme_picker: false
+    show_title: false  # 横版 logo 已含课题组名称
     language_switcher: true
     # Call-to-action button
     cta:

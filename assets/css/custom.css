@@ -41,3 +41,9 @@ html:root{
 .flip-tag--plan{color:#b45309;background:#fff7ed;border:1px solid #fdba74}
 .flip-tag--ext{color:#1d4ed8;background:#eff6ff;border:1px solid #93c5fd}
 .flip-tag--run{color:#047857;background:#ecfdf5;border:1px solid #6ee7b7}
+
+/* 页眉横版 logo（B2），深色模式切深底版 */
+.navbar-brand .flip-brand{height:44px;width:auto;max-width:min(300px,62vw);object-fit:contain;display:block}
+.navbar-brand .flip-brand--dark{display:none}
+html.dark .navbar-brand .flip-brand--light{display:none}
+html.dark .navbar-brand .flip-brand--dark{display:block}
