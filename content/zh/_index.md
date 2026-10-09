@@ -64,17 +64,13 @@ sections:
     content:
       title: 课题组负责人
       text: |-
-        <div class="grid md:grid-cols-4 gap-6 items-start not-prose">
-        <div><img src="{{< u "uploads/people/zhujianjun.jpg" >}}" alt="朱建军" class="flip-pi-photo"></div>
-        <div class="md:col-span-3 prose dark:prose-invert max-w-none">
+        <div class="flip-pi-brief not-prose">
+        <img src="{{< u "uploads/people/zhujianjun.jpg" >}}" alt="朱建军" class="flip-pi-brief__photo">
+        <div>
 
-        **朱建军**，博士，副教授，机械工程学院副院长；学术型硕导、博士生导师、工程博导；校青年拔尖人才。
+        **朱建军**（负责人）副教授、博士生导师，中国石油大学（北京）机械工程学院副院长；课题组与东南大学王建立教授（co-PI）共同指导学生。
 
-        长期从事多相流动理论建模、人工举升采油系统优化设计，以及油气田生产数据挖掘。2012–2017 年在美国塔尔萨大学获石油工程博士学位，2017–2019 年任塔尔萨大学人工举升项目组（TUALP）助理研究员，2019 年起任教于中国石油大学（北京）。入选 Elsevier 与斯坦福大学全球前2%科学家榜单（单年度，2025–2026）。
-
-        课题组与东南大学机械工程学院王建立教授（共同负责人，co-PI）共同指导学生。
-
-        [团队与负责人 →]({{< u "team/" >}}) &nbsp; [Google Scholar →](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en)
+        [团队成员 →]({{< u "team/" >}})
 
         </div>
         </div>
