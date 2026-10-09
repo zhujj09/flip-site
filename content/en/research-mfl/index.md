@@ -1,6 +1,6 @@
 ---
 title: "Intelligent Defect Recognition in Pipeline MFL In-Line Inspection"
-url: /research/mfl/
+url: /en/research/mfl/
 date: 2026-10-09
 ---
 

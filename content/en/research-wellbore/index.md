@@ -1,6 +1,6 @@
 ---
 title: "Wellbore Multiphase Flow Modeling and Liquid-Loading Prediction"
-url: /research/wellbore/
+url: /en/research/wellbore/
 date: 2026-10-09
 ---
 

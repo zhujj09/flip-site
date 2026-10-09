@@ -1,6 +1,6 @@
 ---
 title: "Hydraulic Jet Pumps for Gas-Well Deliquification"
-url: /research/jetpump/
+url: /en/research/jetpump/
 date: 2026-10-09
 ---
 

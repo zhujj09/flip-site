@@ -1,6 +1,6 @@
 ---
 title: "ESP Multiphase Boosting Mechanisms and Condition Diagnosis"
-url: /research/esp/
+url: /en/research/esp/
 date: 2026-10-09
 ---
 

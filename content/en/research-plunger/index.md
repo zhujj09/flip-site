@@ -1,6 +1,6 @@
 ---
 title: "Plunger Lift Transient Modeling and Intelligent Diagnosis"
-url: /research/plunger/
+url: /en/research/plunger/
 date: 2026-10-09
 ---
 

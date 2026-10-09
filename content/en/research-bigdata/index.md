@@ -1,6 +1,6 @@
 ---
 title: "Oil and Gas Field Big-Data Analytics"
-url: /research/bigdata/
+url: /en/research/bigdata/
 date: 2026-10-09
 ---
 

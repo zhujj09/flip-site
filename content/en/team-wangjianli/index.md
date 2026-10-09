@@ -1,6 +1,6 @@
 ---
 title: "Jianli Wang"
-url: /team/wangjianli/
+url: /en/team/wangjianli/
 date: 2026-10-09
 ---
 
