@@ -77,3 +77,5 @@ date: 2026-10-09
 **合作方式：** 技术服务与井例测算、联合攻关与项目申报、软件模块定制与嵌入、研究生联合培养。
 
 <small>资料来源：课题组 2026 年 10 月「排水采气技术研究进展与成果交流」报告、各项目结题报告与验收意见、相关论文。</small>
+
+<small style="color:#9ca3af">图片来源：首页「多相流」卡片图引自 S. Qiao, J. Li, J. Ren, S. Kim, Coatings 2023, 13(1), 5, Fig. 6，<a href="https://doi.org/10.3390/coatings13010005" style="color:inherit">doi:10.3390/coatings13010005</a>，<a href="https://creativecommons.org/licenses/by/4.0/" style="color:inherit">CC BY 4.0</a>；经裁剪。</small>
