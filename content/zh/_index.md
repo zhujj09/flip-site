@@ -49,12 +49,12 @@ sections:
           topics: [电潜泵, 柱塞举升, 射流泵]
           url: research/esp/
         - name: 智慧开采
-          description: 机理模型与现场数据融合的电潜泵、柱塞井工况智能诊断；管道漏磁内检测数据的缺陷识别与量化。
+          description: 油气田生产大数据分析与风险感知决策；机理与数据融合的电潜泵、柱塞井工况诊断；漏磁内检测缺陷识别。
           icon: hero/cpu-chip
           image: research/smart.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-slate-600 to-slate-800
-          topics: [工况智能诊断, 漏磁缺陷识别, 数据样本生成]
-          url: research/mfl/
+          topics: [油气田大数据, 工况智能诊断, 漏磁缺陷识别]
+          url: research/bigdata/
     design:
       layout: cards
       css_class: "flip-areas"

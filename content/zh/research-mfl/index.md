@@ -27,4 +27,4 @@ date: 2026-10-09
   </ol>
 </div>
 
-<nav class="flip-theme-nav not-prose"><a href="{{< u "research/jetpump/" >}}">← 4. 水力射流泵排水采气机理与优化</a><a href="{{< u "research/" >}}">研究方向总览</a><span></span></nav>
+<nav class="flip-theme-nav not-prose"><a href="{{< u "research/jetpump/" >}}">← 4. 水力射流泵排水采气机理与优化</a><a href="{{< u "research/" >}}">研究方向总览</a><a href="{{< u "research/bigdata/" >}}">6. 油气田大数据分析 →</a></nav>
