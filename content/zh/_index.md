@@ -35,7 +35,7 @@ sections:
       text: ''
       items:
         - name: 多相流
-          description: 井筒管流稳态统一模型与瞬态漂移流模型，气井积液判断。
+          description: 井筒多相流稳态统一模型与瞬态漂移流模型，气井积液预测。
           icon: hero/beaker
           image: research/multiphase.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-blue-500 to-sky-600
