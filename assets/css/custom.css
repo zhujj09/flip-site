@@ -42,20 +42,22 @@ html:root{
 .flip-tag--ext{color:#1d4ed8;background:#eff6ff;border:1px solid #93c5fd}
 .flip-tag--run{color:#047857;background:#ecfdf5;border:1px solid #6ee7b7}
 
-/* 页眉 logo（B2）：图形 + FLIP + 英文全称（SVG，flip-lockup），中文名称用文字；深色模式切深底版 */
-.navbar-brand{display:flex;align-items:center;gap:14px;text-decoration:none}
-.navbar-brand .flip-brand{height:60px;width:auto;max-width:none;display:block;flex:none}
-.navbar-brand .flip-brand--dark{display:none}
-html.dark .navbar-brand .flip-brand--light{display:none}
-html.dark .navbar-brand .flip-brand--dark{display:block}
-.flip-brand-cn{display:none;flex-direction:column;justify-content:center;gap:3px;padding-left:14px;border-left:1px solid #CBD5E1;white-space:nowrap;line-height:1.3}
-.flip-brand-cn__name{font-size:15px;font-weight:600;color:#102A4C;letter-spacing:.02em}
-.flip-brand-cn__org{font-size:14px;font-weight:400;color:#475569}
-html.dark .flip-brand-cn{border-left-color:#475569}
-html.dark .flip-brand-cn__name{color:#F8FAFC}
-html.dark .flip-brand-cn__org{color:#CBD5E1}
-/* 中文名称：宽屏（≥1280，页眉已达内容栏全宽）与平板（840–1023，菜单折叠）显示；其余宽度只显示 logo，避免挤压菜单 */
-@media (min-width:840px) and (max-width:1023.98px),(min-width:1280px){.flip-brand-cn{display:flex}}
+/* 页眉左侧（B2）：图形 + 两行文字（中文课题组名 / 英文全称小字），右侧只放菜单 */
+.navbar-brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.navbar-brand .flip-mark{height:52px;width:52px;display:block;flex:none}
+.navbar-brand .flip-mark--dark{display:none}
+html.dark .navbar-brand .flip-mark--light{display:none}
+html.dark .navbar-brand .flip-mark--dark{display:block}
+.flip-brand-text{display:flex;flex-direction:column;justify-content:center;gap:2px;white-space:nowrap;line-height:1.25}
+.flip-brand-text__name{font-size:19px;font-weight:700;color:#102A4C;letter-spacing:.03em}
+.flip-brand-text__en{font-size:11.5px;font-weight:500;color:#64748b;letter-spacing:.01em}
+html.dark .flip-brand-text__name{color:#F8FAFC}
+html.dark .flip-brand-text__en{color:#CBD5E1}
+@media (max-width:639.98px){
+  .navbar-brand .flip-mark{height:40px;width:40px}
+  .flip-brand-text__name{font-size:16px}
+  .flip-brand-text__en{display:none}
+}
 /* 页眉内容与正文共用同一居中栏（max-w-screen-xl = 1280px）：logo 贴栏左缘，菜单/语言贴栏右缘 */
 #site-header nav.navbar{max-width:1280px;margin-left:auto;margin-right:auto}
 /* 桌面菜单略收紧并靠右，给 logo 留位置；语言切换只显示地球图标（悬停有提示） */
@@ -69,9 +71,8 @@ html.dark .flip-brand-cn__org{color:#CBD5E1}
   #site-header nav.navbar>.order-1{margin-left:8px}
   #site-header nav.navbar>.order-1>div{margin-right:0}
 }
-/* 手机：logo 按屏宽缩放，不溢出 */
+/* 手机 */
 @media (max-width:639.98px){
-  .navbar-brand .flip-brand{height:auto;width:min(300px,calc(100vw - 116px))}
   #site-header [data-hb-language-chooser] span{display:none}
   #site-header nav.navbar>.order-1>div{margin-right:8px}
 }
@@ -87,7 +88,7 @@ html.dark .flip-brand-cn__org{color:#CBD5E1}
 /* 页眉与正文共用 1280px 栏（内容宽 1200px），左右内边距一致，logo 与正文左缘对齐 */
 #site-header nav.navbar{max-width:var(--flip-w)!important;padding-left:var(--flip-pad)!important;padding-right:var(--flip-pad)!important}
 @media (min-width:1024px){#site-header nav.navbar{flex-wrap:nowrap}#nav-menu .nav-link{white-space:nowrap}#nav-menu{flex-wrap:nowrap}}
-@media (min-width:1280px){#nav-menu .nav-link{padding-left:5px!important;padding-right:5px!important}#nav-menu>li+li{margin-left:2px!important}.navbar-brand{gap:12px}.flip-brand-cn{padding-left:12px}}
+@media (min-width:1280px){#nav-menu .nav-link{padding-left:5px!important;padding-right:5px!important}#nav-menu>li+li{margin-left:2px!important}}
 
 /* —— 首页 —— */
 /* 研究方向区：同一内容栏，标题左对齐，卡片间距放大 */
@@ -135,8 +136,6 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .page-body article h1+div{margin-bottom:2.5rem!important}
 /* 右侧目录收窄 */
 .page-body .hb-toc{width:15rem;padding-right:0}
-/* 英文页菜单较长：桌面端只显示 logo，不显示中文名称，避免与菜单挤在一起 */
-@media (min-width:1024px){html[lang^="en"] .flip-brand-cn{display:none!important}}
 /* 学生卡片（Smart Fields 式）：照片 / 姓名（学位） / 研究方向 */
 .flip-students{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:2.75rem 2rem;margin:1.5rem 0 3rem}
 .flip-student{display:flex;flex-direction:column;align-items:center;text-align:center}

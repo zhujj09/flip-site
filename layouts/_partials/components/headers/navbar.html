@@ -8,12 +8,15 @@
     <div class="order-0 h-full">
       <!-- Brand -->
       <a class="navbar-brand" href="{{ site.Home.RelPermalink }}" title="{{ $branding.site_title }}">
-        {{/* FLIP：横版 logo，浅色/深色模式各一版（覆盖 blox navbar） */}}
-        {{- $lg := resources.Get "media/brand/flip-lockup.svg" | fingerprint -}}
-        {{- $lgd := resources.Get "media/brand/flip-lockup-dark.svg" | fingerprint -}}
-        <img class="flip-brand flip-brand--light" src="{{ $lg.RelPermalink }}" width="345" height="60" alt="FLIP" fetchpriority="high" decoding="async" />
-        <img class="flip-brand flip-brand--dark" src="{{ $lgd.RelPermalink }}" width="345" height="60" alt="FLIP" decoding="async" />
-        <span class="flip-brand-cn"><span class="flip-brand-cn__name">多相流、人工举升与智慧开采课题组</span><span class="flip-brand-cn__org">中国石油大学（北京）</span></span>
+        {{/* FLIP：左侧 = B2 图形 + 课题组名称（上）/ 英文全称一行小字（下）；深色模式切深底图形 */}}
+        {{- $mk := resources.Get "media/brand/flip-mark.svg" | fingerprint -}}
+        {{- $mkd := resources.Get "media/brand/flip-mark-dark.svg" | fingerprint -}}
+        <img class="flip-mark flip-mark--light" src="{{ $mk.RelPermalink }}" width="52" height="52" alt="FLIP" fetchpriority="high" decoding="async" />
+        <img class="flip-mark flip-mark--dark" src="{{ $mkd.RelPermalink }}" width="52" height="52" alt="FLIP" decoding="async" />
+        <span class="flip-brand-text">
+          <span class="flip-brand-text__name">{{ if eq site.Language.Lang "en" }}FLIP Research Group{{ else }}多相流、人工举升与智慧开采课题组{{ end }}</span>
+          <span class="flip-brand-text__en">FLIP · Multiphase Flow · Artificial Lift · Intelligent Production</span>
+        </span>
         {{/* Display brand name */}}
         {{ if $show_title }}{{ $navbar_title }}{{ end }}
       </a>
