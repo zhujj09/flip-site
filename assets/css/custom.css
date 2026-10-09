@@ -177,15 +177,16 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .flip-research-toc{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin:1rem 0 2rem;font-size:.95rem}
 
 /* 研究方向：总览卡片 + 详情页导航 */
-.flip-theme-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;margin:1.75rem 0 2.5rem}
-.flip-theme-card{display:flex;flex-direction:column;border:1px solid #e2e8f0;border-radius:.75rem;overflow:hidden;background:#fff;text-decoration:none!important;color:inherit;transition:box-shadow .2s,transform .2s}
+.flip-theme-cards{display:grid;grid-template-columns:1fr;gap:1.25rem;margin:1.75rem 0 2.5rem}
+.flip-theme-card{display:flex;flex-direction:row;border:1px solid #e2e8f0;border-radius:.75rem;overflow:hidden;background:#fff;text-decoration:none!important;color:inherit;transition:box-shadow .2s,transform .2s}
 .flip-theme-card:hover{box-shadow:0 10px 28px rgba(15,23,42,.12);transform:translateY(-2px)}
-.flip-theme-card__img{aspect-ratio:16/9;background:#f8fafc;display:flex;align-items:center;justify-content:center;border-bottom:1px solid #e2e8f0}
+.flip-theme-card__img{flex:0 0 40%;aspect-ratio:16/10;background:#f8fafc;display:flex;align-items:center;justify-content:center;border-right:1px solid #e2e8f0;padding:.5rem}
+@media (max-width:640px){.flip-theme-card{flex-direction:column}.flip-theme-card__img{flex:none;border-right:0;border-bottom:1px solid #e2e8f0}}
 .flip-theme-card__img img{width:100%;height:100%;object-fit:contain;margin:0}
-.flip-theme-card__body{padding:1rem 1.25rem 1.25rem;display:flex;flex-direction:column;flex:1}
+.flip-theme-card__body{padding:1.1rem 1.4rem 1.2rem;justify-content:center;display:flex;flex-direction:column;flex:1}
 .flip-theme-card__num{font-size:.8rem;font-weight:700;letter-spacing:.08em;color:#1d4ed8}
 .flip-theme-card h3{margin:.25rem 0 .5rem;font-size:1.1rem;line-height:1.4;color:#0f172a}
-.flip-theme-card p{margin:0 0 .75rem;font-size:.92rem;line-height:1.65;color:#475569;flex:1}
+.flip-theme-card p{margin:0 0 .75rem;font-size:.93rem;line-height:1.7;color:#475569}
 .flip-theme-card__more{font-size:.9rem;font-weight:600;color:#1d4ed8}
 .flip-crumb{font-size:.9rem;color:#64748b;margin:0 0 1rem}
 .flip-crumb a{color:#1d4ed8;text-decoration:none}
