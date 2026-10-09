@@ -48,9 +48,9 @@ date: 2026-10-09
 ### 与东南大学王建立教授共同培养 {#co-supervised}
 
 <div class="flip-students not-prose">
-{{< student name="张毓涵" deg="硕士研究生" photo="uploads/students/zhangyuhan.jpg" >}}气井泡排剂加注优化：风险感知的强化学习决策智能体{{< /student >}}
-{{< student name="施骋昊" deg="硕士研究生" photo="uploads/students/shichenghao.jpg" >}}气井泡排剂加注量的 Actor-Critic 强化学习推荐{{< /student >}}
-{{< student name="李欣翼" deg="硕士研究生" photo="uploads/students/lixinyi.jpg" >}}研究方向未核实{{< /student >}}
+{{< student name="张毓涵" deg="硕士研究生" photo="uploads/students/zhangyuhan.jpg" >}}复杂工业系统数据驱动建模、设备状态监测与智能决策{{< /student >}}
+{{< student name="施骋昊" deg="硕士研究生" photo="uploads/students/shichenghao.jpg" >}}产品 UX 与三维建模；机器学习与强化学习落地{{< /student >}}
+{{< student name="李欣翼" deg="硕士研究生" photo="uploads/students/lixinyi.jpg" >}}跨尺度系统设计与可落地的工业设计{{< /student >}}
 </div>
 
 ### 已毕业 {#alumni}

@@ -125,9 +125,11 @@ FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开
 
 **缺陷识别与量化。** 与东南大学王建立教授合作，课题组提出级联深度学习方法：先用预训练 YOLO 网络在漏磁信号图上定位缺陷，再用 Vision Transformer 或多输入并行卷积网络回归缺陷长、宽、深，实现检测与量化一体化。
 
+{{< fig src="uploads/research/mfl-cascade-framework.jpg" alt="YOLOv5 与 ViT 级联的漏磁缺陷检测框架" caption="级联深度学习框架：漏磁信号采集与扩增、YOLOv5 快速定位缺陷、ViT 精细分类" >}}
+
 **样本生成与信号重建。** 针对标签样本稀缺，用扩散模型和生成模型合成带标签的漏磁缺陷信号，并建立合成信号质量评价方法，用合成数据提升缺陷检测精度；针对检测器高速运行或通道失效造成的欠采样，提出多先验张量补全方法重建漏磁信号。
 
-{{< fig src="uploads/research/mfl-workflow.jpg" alt="漏磁内检测数据分析流程示意" caption="漏磁内检测数据分析流程：信号采集 → 预处理与样本扩增 → 缺陷识别与量化" >}}
+{{< fig src="uploads/research/mfl-pull-test.jpg" alt="漏磁内检测牵拉试验管段与人工缺陷" caption="漏磁内检测牵拉试验：试验管段布置、人工缺陷与检测器" >}}
 
 <div class="flip-theme-pubs not-prose">
   <h4>代表性论文（5 篇）</h4>
