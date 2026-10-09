@@ -75,7 +75,9 @@ sections:
 
         长期从事多相流动理论建模、人工举升采油系统优化设计，以及油气田生产数据挖掘。入选 Elsevier 与斯坦福大学全球前2%科学家榜单（单年度，2025–2026）。
 
-        [查看完整简介 →]({{< u "team/#pi" >}}) &nbsp; [Google Scholar →](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en)
+        课题组与东南大学机械工程学院王建立教授（共同负责人，co-PI）共同指导学生。
+
+        [团队与负责人 →]({{< u "team/" >}}) &nbsp; [Google Scholar →](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en)
 
         </div>
         </div>
