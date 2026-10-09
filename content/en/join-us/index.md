@@ -10,7 +10,7 @@ aliases:
 
 **Programs:** Mechanical Engineering; Mechanical Engineering (professional); Power Engineering and Engineering Thermophysics
 
-We admit Ph.D. and master's students every year. See [Research]({{< u "research/" >}}) for our research areas.
+We admit Ph.D. and master's students every year. See [Research]({{< u "en/research/" >}}) for our research areas.
 
 ## Who we welcome {#welcome}
 

@@ -47,8 +47,8 @@
       {{ if in (slice "l" "left") $align_menu }}mr-auto ml-6{{ else if (in (slice "r" "right") $align_menu) }}ml-auto mr-6{{end}}">
       {{ $currentPage := . }}
       {{ range site.Menus.main }}
-      {{ $menuURL := .URL | absLangURL }}
-      {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+      {{ $menuURL := .URL | absURL }}
+      {{ $pageURL:= $currentPage.Permalink }}
       {{ $active := eq $menuURL $pageURL }}
       {{ if .HasChildren }}
       <li class="nav-item nav-dropdown group relative">
@@ -58,7 +58,7 @@
               aria-haspopup="true"
               aria-expanded="false"
               class="nav-link cursor-pointer select-none {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
+                {{ $childURL := .URL | absURL }}
                 {{ $active := eq $childURL $pageURL }}
                 {{ if $active }}active{{ end }}
               {{ end }} inline-flex items-center">
@@ -71,7 +71,7 @@
         <ul
           class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
           {{ range .Children }}
-          {{ $childURL := .URL | absLangURL }}
+          {{ $childURL := .URL | absURL }}
           {{ $active := eq $childURL $pageURL }}
           {{ $url := "" }}
           {{- if findRE `^#` .URL -}}
@@ -80,7 +80,7 @@
             {{- end }}
             {{- $url = .URL -}}
           {{- else -}}
-            {{- $url = .URL | relLangURL -}}
+            {{- $url = .URL | relURL -}}
           {{- end -}}
           <li class="nav-dropdown-item">
             <a
@@ -103,7 +103,7 @@
         {{- end }}
         {{- $url = .URL -}}
         {{- else -}}
-        {{- $url = .URL | relLangURL -}}
+        {{- $url = .URL | relURL -}}
       {{- end -}}
       <li class="nav-item">
         <a
@@ -121,7 +121,7 @@
       <li class="mt-4 inline-block lg:hidden">
         <a
           class=""
-          href="{{ site.Params.hugoblox.header.cta.url | relLangURL }}">
+          href="{{ site.Params.hugoblox.header.cta.url | relURL }}">
           {{ site.Params.hugoblox.header.cta.text }}
         </a>
       </li>
@@ -204,7 +204,7 @@
       <!-- CTA button -->
       {{ if site.Params.hugoblox.header.cta.enable }}
       <a
-        href="{{ site.Params.hugoblox.header.cta.url | relLangURL }}"
+        href="{{ site.Params.hugoblox.header.cta.url | relURL }}"
         class="inline-block rounded border px-5 py-2 font-semibold transition
         md:ml-4 px-4 py-1.5 text-sm
         border-black  hover:bg-black dark:hover:bg-white dark:hover:text-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white

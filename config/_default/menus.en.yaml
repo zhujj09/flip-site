@@ -1,3 +1,5 @@
+# Full language-prefixed paths; navbar uses relURL (not relLangURL) so baseURL
+# subdirectory /flip-site/ is applied once: /en/research/ → /flip-site/en/research/
 main:
   - {name: Home, url: /en/, weight: 10}
   - {name: Research, url: /en/research/, weight: 20}
