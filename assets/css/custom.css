@@ -43,19 +43,20 @@ html:root{
 .flip-tag--run{color:#047857;background:#ecfdf5;border:1px solid #6ee7b7}
 
 /* 页眉左侧（B2）：图形 + 两行文字（中文课题组名 / 英文全称小字），右侧只放菜单 */
-.navbar-brand{display:flex;align-items:center;gap:12px;text-decoration:none}
-.navbar-brand .flip-mark{height:52px;width:52px;display:block;flex:none}
+.navbar-brand{display:flex;align-items:center;gap:8px;text-decoration:none;flex:none;overflow:visible}
+#site-header nav.navbar>.order-0{flex:none;overflow:visible}
+.navbar-brand .flip-mark{height:60px;width:60px;max-width:none;display:block;flex:none;object-fit:contain}
 .navbar-brand .flip-mark--dark{display:none}
 html.dark .navbar-brand .flip-mark--light{display:none}
 html.dark .navbar-brand .flip-mark--dark{display:block}
-.flip-brand-text{display:flex;flex-direction:column;justify-content:center;gap:2px;white-space:nowrap;line-height:1.25}
+.flip-brand-text{display:flex;flex:none;overflow:visible;flex-direction:column;justify-content:center;gap:2px;white-space:nowrap;line-height:1.25}
 .flip-brand-text__name{font-size:19px;font-weight:700;color:#102A4C;letter-spacing:.03em}
 .flip-brand-text__en{font-size:11.5px;font-weight:500;color:#64748b;letter-spacing:.01em}
 html.dark .flip-brand-text__name{color:#F8FAFC}
 html.dark .flip-brand-text__en{color:#CBD5E1}
 @media (max-width:639.98px){
-  .navbar-brand{gap:8px}
-  .navbar-brand .flip-mark{height:34px;width:34px}
+  .navbar-brand{gap:4px}
+  .navbar-brand .flip-mark{height:42px;width:42px}
   .flip-brand-text__name{font-size:13px;letter-spacing:0}
   .flip-brand-text__en{display:none}
 }
