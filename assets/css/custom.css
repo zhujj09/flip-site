@@ -57,8 +57,6 @@ html.dark .flip-brand-text__en{color:#CBD5E1}
   .navbar-brand{gap:8px}
   .navbar-brand .flip-mark{height:34px;width:34px}
   .flip-brand-text__name{font-size:13px;letter-spacing:0}
-  #site-header nav.navbar{flex-wrap:nowrap}
-  #site-header nav.navbar>.order-0{min-width:0}
   .flip-brand-text__en{display:none}
 }
 /* 页眉内容与正文共用同一居中栏（max-w-screen-xl = 1280px）：logo 贴栏左缘，菜单/语言贴栏右缘 */
