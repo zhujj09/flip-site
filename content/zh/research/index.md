@@ -3,7 +3,7 @@ title: 研究方向
 date: 2026-10-09
 ---
 
-FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开，分为五个方向：井筒多相流动建模与积液预测、电潜泵多相增压机理与工况诊断、柱塞气举瞬态建模与智能诊断、水力射流泵排水采气机理与优化、管道漏磁内检测缺陷智能识别。研究手段是实验、数值模拟（CFD、OLGA）、机理建模与数据驱动方法相结合，相互校核。每个方向后列出支撑论文，完整列表见 [Google Scholar](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en)。
+FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开，分为五个方向：井筒多相流动建模与积液预测、电潜泵多相增压机理与工况诊断、柱塞气举瞬态建模与智能诊断、水力射流泵排水采气机理与优化、管道漏磁内检测缺陷智能识别。研究手段是实验、数值模拟（CFD、OLGA）、机理建模与数据驱动方法相结合，相互校核。每个方向后列出代表性论文，完整列表见 [Google Scholar](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en)。
 
 <nav class="flip-research-toc not-prose"><a href="#wellbore">1. 井筒多相流动建模</a><a href="#esp">2. 电潜泵多相增压与诊断</a><a href="#plunger">3. 柱塞气举建模与诊断</a><a href="#jetpump">4. 水力射流泵排水采气</a><a href="#mfl">5. 管道漏磁缺陷识别</a></nav>
 
@@ -24,7 +24,7 @@ FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开
 {{< fig src="uploads/research/ll-droplet-film.jpg" alt="井筒内液滴与液膜受力示意" caption="两类临界携液机理：井筒内液滴受力（左）与液膜受力（右）" >}}
 
 <div class="flip-theme-pubs not-prose">
-  <h4>支撑论文（7 篇）</h4>
+  <h4>代表性论文（7 篇）</h4>
   <ol>
     <li>Q Wang, H Zou, C Liang, S Zhang, H Jia, <b>J Zhu</b>. <a href="https://doi.org/10.1002/cjce.70389" target="_blank" rel="noopener">A combined approach for predicting liquid loading onset via clustering and convolutional neural networks</a>. <i>The Canadian Journal of Chemical Engineering</i>, 2026.</li>
     <li>J Yang, M Chen, H Wang, R Zheng, Z Li, H Zhou, <b>J Zhu</b>. <a href="https://doi.org/10.3390/pr13103363" target="_blank" rel="noopener">Fast Calculation Method of Two-Phase Flow in Horizontal Gas Wells Based on PI-DeepONet</a>. <i>Processes 13 (10), 3363</i>, 2025.</li>
@@ -55,27 +55,16 @@ FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开
 {{< fig src="uploads/research/esp-management-dashboard.jpg" alt="智能电潜泵管理系统总览界面" caption="智能电潜泵管理系统：井群总览、故障诊断、性能曲线与剩余寿命预测" >}}
 
 <div class="flip-theme-pubs not-prose">
-  <h4>支撑论文（21 篇）</h4>
+  <h4>代表性论文（10 篇）</h4>
   <ol>
-    <li>C Zhang, Q Li, J Zhang, <b>J Zhu</b>, Y Wang. <a href="https://doi.org/10.1063/5.0350203" target="_blank" rel="noopener">Energy conversion mechanisms and flow boundaries of gas–liquid multiphase flow in a mixed-flow electrical submersible pump for offshore oilfields</a>. <i>Physics of Fluids 38 (9)</i>, 2026.</li>
-    <li>C Zhang, H Jia, X Zhang, Q Li, Y Li, Y Zhang, H Zhu, <b>J Zhu</b>. <a href="https://doi.org/10.1115/1.4072097" target="_blank" rel="noopener">Flow Structure Analysis in a Rotating Centrifugal Impeller under Gassy Conditions Using Dynamic Mode Decomposition</a>. <i>Journal of Energy Resources Technology, Part B: Subsurface Energy and Carbon …</i>, 2026.</li>
     <li>L Peng, L Feng, Q Guang, <b>J Zhu</b>, H Liu, Z Nie, C Ma, C Di, Q Wu. <a href="https://doi.org/10.2118/226795-ms" target="_blank" rel="noopener">Real-Time ESP Management Framework Using Hybrid Physics-Based and ML Models</a>. <i>SPE Offshore Europe Conference and Exhibition, D021S009R008</i>, 2025.</li>
-    <li><b>J ZHU</b>, Y JI, J PENG, H ZHU. A new mechanistic model on boosting pressure of Electrical Submersible Pumps (ESPs) under gas-liquid two-phase flow. <i>Petroleum Science Bulletin 9 (1), 130-147</i>, 2024.</li>
     <li>Y Li, <b>J Zhu</b>, H Zeng, Y Zhang, Y Lu, Y Fan, H Zhu. <a href="https://doi.org/10.2118/210604-pa" target="_blank" rel="noopener">An Indirect Approach for Flow Pattern Transition Identification Inside a Low-Specific-Speed Centrifugal Pump with Experimental Verification and Theoretical Modeling</a>. <i>SPE Journal 28 (01), 184-200</i>, 2023.</li>
     <li>H Zhu, <b>J Zhu</b>, HQ Zhang. <a href="https://doi.org/10.1016/j.ces.2021.117288" target="_blank" rel="noopener">Mechanistic modeling of gas effect on Multi-stage Electrical submersible pump (ESP) performance with experimental validation</a>. <i>Chemical Engineering Science 252, 117288</i>, 2022.</li>
-    <li>Y Shi, <b>J Zhu</b>, H Wang, H Zhu, J Zhang, HQ Zhang. <a href="https://doi.org/10.1177/09576509211014974" target="_blank" rel="noopener">Experiments and mechanistic modeling of viscosity effect on a multistage ESP performance under viscous fluid flow</a>. <i>Proceedings of the Institution of Mechanical Engineers, Part A: Journal of …</i>, 2021.</li>
     <li><b>J Zhu</b>, H Zhao, G Cao, H Banjar, H Zhu, J Peng, HQ Zhang. <a href="https://doi.org/10.2118/196155-pa" target="_blank" rel="noopener">A New Mechanistic Model for Emulsion Rheology and Boosting Pressure Prediction in Electrical Submersible Pumps (ESPs) under Oil-Water Two-Phase Flow</a>. <i>SPE Journal 26 (02), 667-684</i>, 2021.</li>
-    <li>H Zhu, <b>J Zhu</b>, Z Lin, Q Zhao, R Rutter, HQ Zhang. <a href="https://doi.org/10.1016/j.petrol.2021.108399" target="_blank" rel="noopener">Performance degradation and wearing of Electrical Submersible Pump (ESP) with gas-liquid-solid flow: Experiments and mechanistic modeling</a>. <i>Journal of Petroleum Science and Engineering 200, 108399</i>, 2021.</li>
-    <li>H Zhu, <b>J Zhu</b>, R Rutter, HQ Zhang. <a href="https://doi.org/10.1115/1.4048863" target="_blank" rel="noopener">Experimental Study on Deteriorated Performance, Vibration, and Geometry Changes of an Electrical Submersible Pump Under Sand Water Flow Condition</a>. <i>Journal of Energy Resources Technology 143 (8), 082104</i>, 2021.</li>
     <li><b>J Zhu</b>, H Zhu, G Cao, J Zhang, J Peng, H Banjar, HQ Zhang. <a href="https://doi.org/10.2118/194384-PA" target="_blank" rel="noopener">A New Mechanistic Model To Predict Boosting Pressure of Electrical Submersible Pumps Under High-Viscosity Fluid Flow with Validations by Experimental Data</a>. <i>SPE Journal 25 (02), 744-758</i>, 2020.</li>
-    <li>C Wang, Y Zhang, J Zhang, <b>J Zhu</b>. <a href="https://doi.org/10.1016/j.petrol.2020.107467" target="_blank" rel="noopener">Flow pattern recognition inside a rotodynamic multiphase pump via developed entropy production diagnostic model</a>. <i>Journal of Petroleum Science and Engineering 194, 107467</i>, 2020.</li>
     <li><b>J Zhu</b>, J Zhang, G Cao, Q Zhao, J Peng, H Zhu, HQ Zhang. <a href="https://doi.org/10.1016/j.petrol.2019.05.059" target="_blank" rel="noopener">Modeling flow pattern transitions in electrical submersible pump under gassy flow conditions</a>. <i>Journal of Petroleum Science and Engineering 180, 471-484</i>, 2019.</li>
-    <li>H Zhu, <b>J Zhu</b>, R Rutter, HQ Zhang. <a href="https://doi.org/10.1115/1.4044941" target="_blank" rel="noopener">A numerical study on erosion model selection and effect of pump type and sand characters in electrical submersible pumps by sandy flow</a>. <i>Journal of Energy Resources Technology 141 (12), 122004</i>, 2019.</li>
-    <li><b>J Zhu</b>, H Zhu, J Zhang, HQ Zhang. <a href="https://doi.org/10.1016/j.petrol.2018.10.038" target="_blank" rel="noopener">A numerical study on flow patterns inside an electrical submersible pump (ESP) and comparison with visualization experiments</a>. <i>Journal of Petroleum Science and Engineering 173, 339-350</i>, 2019.</li>
     <li><b>J Zhu</b>, HQ Zhang. <a href="https://doi.org/10.3390/en11010180" target="_blank" rel="noopener">A review of experiments and modeling of gas-liquid flow in electrical submersible pumps</a>. <i>Energies 11 (1), 180</i>, 2018.</li>
-    <li><b>J Zhu</b>, H Zhu, Z Wang, J Zhang, R Cuamatzi-Melendez, JAM Farfan 等. <a href="https://doi.org/10.1016/j.expthermflusci.2018.05.013" target="_blank" rel="noopener">Surfactant Effect on Air/Water Flow in a Multistage Electrical Submersible Pump (ESP)</a>. <i>Experimental Thermal and Fluid Science</i>, 2018.</li>
     <li><b>J Zhu</b>, X Guo, F Liang, HQ Zhang. <a href="https://doi.org/10.1016/j.jngse.2017.06.027" target="_blank" rel="noopener">Experimental study and mechanistic modeling of pressure surging in electrical submersible pump</a>. <i>Journal of Natural Gas Science and Engineering 45, 625-636</i>, 2017.</li>
-    <li><b>J Zhu</b>, HQ Zhang. <a href="https://doi.org/10.2118/170727-PA" target="_blank" rel="noopener">Numerical study on electrical-submersible-pump two-phase performance and bubble-size modeling</a>. <i>SPE Production &amp; Operations 32 (03), 267-278</i>, 2017.</li>
     <li><b>J Zhu</b>, HQ Zhang. <a href="https://doi.org/10.1016/j.jngse.2016.10.020" target="_blank" rel="noopener">Mechanistic modeling and numerical simulation of in-situ gas void fraction inside ESP impeller</a>. <i>Journal of Natural Gas Science and Engineering 36, 144-154</i>, 2016.</li>
     <li><b>J Zhu</b>, H Banjar, Z Xia, HQ Zhang. <a href="https://doi.org/10.1016/j.petrol.2016.07.033" target="_blank" rel="noopener">CFD simulation and experimental study of oil viscosity effect on multi-stage electrical submersible pump (ESP) performance</a>. <i>Journal of Petroleum Science and Engineering 146, 735-745</i>, 2016.</li>
   </ol>
@@ -96,15 +85,13 @@ FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开
 {{< fig src="uploads/research/ai-plunger-diagnosis.jpg" alt="迁移学习模型对新井数据的工况诊断" caption="迁移学习模型对未参与训练的 4 口柱塞井油套压数据的工况识别结果" >}}
 
 <div class="flip-theme-pubs not-prose">
-  <h4>支撑论文（12 篇）</h4>
+  <h4>代表性论文（10 篇）</h4>
   <ol>
     <li><b>J Zhu</b>, Y Liu, H Wang, M Chen, N Li, G Cao, H Zhu. <a href="https://doi.org/10.2118/233751-pa" target="_blank" rel="noopener">Optimizing Plunger Lift Systems for Gas Well Deliquification: A Bayesian Approach with Comparative Algorithmic Analysis</a>. <i>SPE Journal, 1-15</i>, 2026.</li>
     <li><b>J Zhu</b>, Y Liu, H Wang, M Chen, N Li, G Cao, R Zhong, H Zhu. <a href="https://doi.org/10.3390/pr14132045" target="_blank" rel="noopener">Enhancing Plunger Lift Anomaly Detection: A Vision Transformer-Based Approach Leveraging Pretrained Models and Graphic Data Augmentation</a>. <i>Processes 14 (13), 2045</i>, 2026.</li>
     <li><b>J Zhu</b>, Y Liu, M Chen, H Wang, Y Li, H Zhu. <a href="https://doi.org/10.1016/j.rineng.2026.110368" target="_blank" rel="noopener">Enhanced Zero-Shot Classification of Plunger Lift Operating Conditions Using a Modified Clip Architecture with Selective Data Sampling</a>. <i>Results in Engineering, 110368</i>, 2026.</li>
     <li>QX Liu, <b>JJ Zhu</b>, HB Wang, S Chen, HY Wang, N Li, RZ Zhong, YJ Liu 等. <a href="https://doi.org/10.1016/j.petsci.2025.08.017" target="_blank" rel="noopener">Deep Feature Learning for Anomaly Detection in Gas Well Deliquification using Plunger Lift: A Novel CNN-based Approach</a>. <i>Petroleum Science</i>, 2025.</li>
     <li>M Chen, <b>J Zhu</b>, G Cao, N Li, H Wang, H Zhu, M Jia, X Yang, D Guo. <a href="https://doi.org/10.2118/222161-ms" target="_blank" rel="noopener">Plunger Lift Working Cycle Optimization using a Dynamic Full-Cycle Model Coupled with Simultaneous Perturbation Stochastic Approximation (SPSA) Algorithm</a>. <i>Abu Dhabi International Petroleum Exhibition and Conference, D021S036R003</i>, 2024.</li>
-    <li>Z Xu, H Lin, Y Jia, J Du, J Mao, <b>J Zhu</b>, J Chen, F Li, N Li. <a href="https://doi.org/10.1109/icmsp64464.2024.10867109" target="_blank" rel="noopener">Data Augmentation and Recognition for Plunger Lift Based on Variational Autoencoders</a>. <i>2024 6th International Conference on Intelligent Control, Measurement and …</i>, 2024.</li>
-    <li>Z Zhong, H Wang, N Li, H Zhu, <b>J Zhu</b>, J Wang. <a href="https://doi.org/10.1109/eebda60612.2024.10485764" target="_blank" rel="noopener">Prediction of Plunger Lift Dynamics Using a Bidirectional Long Short-Term Memory Neural Network with an Innovative Forecasting Strategy</a>. <i>2024 IEEE 3rd International Conference on Electrical Engineering, Big Data …</i>, 2024.</li>
     <li>Y Xie, S Ma, H Wang, N Li, <b>J Zhu</b>, J Wang. <a href="https://doi.org/10.1016/j.geoen.2023.212305" target="_blank" rel="noopener">Unsupervised clustering for the anomaly diagnosis of plunger lift operations</a>. <i>Geoenergy Science and Engineering 231, 212305</i>, 2023.</li>
     <li>Q Zhao, <b>J Zhu</b>, G Cao, H Zhu, HQ Zhang. <a href="https://doi.org/10.2118/205386-PA" target="_blank" rel="noopener">Transient modeling of plunger lift for gas well deliquification</a>. <i>SPE Journal 26 (05), 2928-2947</i>, 2021.</li>
     <li><b>J Zhu</b>, H Jia, H Wang, G Cao, H Zhu. Modeling and applications of plunger lift for gas well deliquification via a transient multiphase simulator. <i>Petroleum Science Bulletin 6 (4), 626-637</i>, 2021.</li>
@@ -126,7 +113,7 @@ FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开
 {{< fig src="uploads/research/jet-pump-software.jpg" alt="射流泵软件两相流功能界面" caption="射流泵智能化工况分析软件：不同气液比下的流量比–效率曲线" >}}
 
 <div class="flip-theme-pubs not-prose">
-  <h4>支撑论文（1 篇）</h4>
+  <h4>代表性论文（1 篇）</h4>
   <ol>
     <li><b>J ZHU</b>, A LI, Y JI, J PENG, Y ZHANG, H ZHU. Optimization of gas-liquid two-phase flow characteristic parameters in a concentric dual-tube hydraulic jet pump. <i>The Chinese Journal of Process Engineering 26 (3), 233-244</i>, 2026.</li>
   </ol>
@@ -143,7 +130,7 @@ FLIP 课题组的研究围绕油气井从井底到地面的流动与举升展开
 {{< fig src="uploads/research/mfl-workflow.jpg" alt="漏磁内检测数据分析流程示意" caption="漏磁内检测数据分析流程：信号采集 → 预处理与样本扩增 → 缺陷识别与量化" >}}
 
 <div class="flip-theme-pubs not-prose">
-  <h4>支撑论文（5 篇）</h4>
+  <h4>代表性论文（5 篇）</h4>
   <ol>
     <li>J Xie, J Yang, K Fu, L Tai, X Wang, <b>J Zhu</b>, J Wang. <a href="https://doi.org/10.1016/j.jpse.2025.100282" target="_blank" rel="noopener">Quantitative Assessment of Pipeline Defects Utilizing a Dual-Stage Deep Learning Framework: Integration of Pretrained YOLO Network and Multi-input Parallel Convolution …</a>. <i>Journal of Pipeline Science and Engineering, 100282</i>, 2025.</li>
     <li>J Yang, Y Zhang, C Su, K Fu, <b>J Zhu</b>, J Wang. <a href="https://doi.org/10.1016/j.jpse.2025.100382" target="_blank" rel="noopener">Multi-Priors Tensor Completion for Highly Under-sampled Magnetic Flux Leakage Signal Reconstruction</a>. <i>Journal of Pipeline Science and Engineering, 100382</i>, 2025.</li>
