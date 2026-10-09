@@ -70,8 +70,6 @@ date: 2026-10-09
 
 **王建立**，东南大学机械工程学院教授，博士生导师、硕士生导师；所在院系：设计科学系。
 
-<small>（本节内容均摘自[王建立的东南大学个人主页](https://me.seu.edu.cn/wjl/list.htm)。）</small>
-
 ### 简介
 
 长期从事测试系统开发和检测、机器学习、能源系统优化等领域研究工作。2005年本科毕业于西安交通大学能源与动力工程学院，2010年博士毕业于清华大学动力工程及工程热物理专业，毕业后任职东南大学机械工程学院。2012年和2014年分别赴美国加州理工学院和普渡大学访学。获清华大学优秀博士学位论文一等奖（2010年）和全国百篇优秀博士学位论文提名奖（2014年）。主持国家自然科学基金项目4项，以及中国石化、东方电气、昆明物理所等多项校企合作项目。
@@ -97,7 +95,7 @@ date: 2026-10-09
 - 《计量学报》编委
 - 国家自然科学基金评审人
 
-### 与本组方向相关的论文（摘自其主页论文列表）
+### 与本组方向相关的论文
 
 1. Y Zhang, H Zeng, C Su, J Yang, J Zhu, **Jianli Wang\***, Lightweight Vision Transformer for Real-Time Threat Level Assessment in Φ-OTDR-Based Pipeline Monitoring, *Applied Sciences* 2026, 16 (3), 1664
 2. J Yang, J Xie, X Gao, K Fu, J Zhu, **Jianli Wang\***, Synthetic Magnetic Flux Leakage Signal Generation Using Diffusion Models: A Novel Approach to Improve Pipeline Defect Detection Accuracy, *Journal of Pipeline Science and Engineering*, 2025, 100363
@@ -129,4 +127,3 @@ date: 2026-10-09
 - 2025：贾毓江（新疆油田），高雪（青岛赛轮），张晓程（国家管网甘肃分公司），李敖东（中石油工程技术研究院）
 - 2026：冯龙（国电投国核），周杭（川庆钻探），刘昱君（南京高速齿轮）
 
-<small>（摘自学校个人主页。公开毕业生姓名前建议征得本人同意。）</small>

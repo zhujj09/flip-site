@@ -22,4 +22,3 @@ date: 2026-10-09
 {{< fig src="uploads/software/jet-pump-analysis.jpg" alt="射流泵软件两相流功能界面" caption="射流泵智能化工况分析软件：两相流功能界面" >}}
 </div>
 
-<small>资料来源：课题组 2026 年 10 月交流报告（软件与计算模块页、软件界面示例页）、软件著作权证书。</small>

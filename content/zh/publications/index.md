@@ -58,4 +58,3 @@ date: 2026-10-09
 | 2026 | Enhanced zero-shot classification of plunger lift operating conditions using a modified CLIP architecture | Results in Engineering |
 | 2026 | 同心双管水力射流泵气液两相流特征参数优化 | 过程工程学报 |
 
-<small>资料来源：学校个人主页、课题组 2026 年 10 月交流报告（论文汇总页）、ESP 专著文献库（DOI）。</small>
