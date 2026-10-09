@@ -137,15 +137,14 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .page-body .hb-toc{width:15rem;padding-right:0}
 /* 英文页菜单较长：桌面端只显示 logo，不显示中文名称，避免与菜单挤在一起 */
 @media (min-width:1024px){html[lang^="en"] .flip-brand-cn{display:none!important}}
-/* 学生卡片：姓名 / 照片 / 一行说明 */
-.flip-students{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:1.75rem 1.25rem;margin:1.25rem 0 2.5rem}
+/* 学生卡片（Smart Fields 式）：照片 / 姓名（学位） / 研究方向 */
+.flip-students{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:2.75rem 2rem;margin:1.5rem 0 3rem}
 .flip-student{display:flex;flex-direction:column;align-items:center;text-align:center}
-.flip-student__name{font-size:1.05rem;font-weight:700;color:#0f172a;margin-bottom:.6rem}
-.flip-student__photo{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:.5rem;background:#f1f5f9;margin:0}
+.flip-student__photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:.375rem;background:#f1f5f9;margin:0}
 .flip-student__photo--empty{display:flex;align-items:center;justify-content:center;color:#cbd5e1;border:1px solid #e2e8f0}
-.flip-student__desc{margin-top:.6rem;font-size:.85rem;line-height:1.5;color:#475569}
-.flip-student__desc strong{color:#1e3a8a;font-weight:600}
+.flip-student__name{margin-top:.85rem;font-size:1.05rem;font-weight:700;color:#0f172a;line-height:1.4}
+.flip-student__name span{font-weight:500;font-size:.9rem;color:#475569}
+.flip-student__desc{margin-top:.35rem;font-size:.875rem;line-height:1.55;color:#475569;max-width:15rem}
 .dark .flip-student__name{color:#f1f5f9}
-.dark .flip-student__desc{color:#cbd5e1}
-.dark .flip-student__desc strong{color:#93c5fd}
+.dark .flip-student__name span,.dark .flip-student__desc{color:#cbd5e1}
 .dark .flip-student__photo--empty{background:#1e293b;border-color:#334155;color:#475569}

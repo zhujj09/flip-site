@@ -112,40 +112,40 @@ date: 2026-10-09
 ### 在读 {#members}
 
 <div class="flip-students not-prose">
-{{< student name="秦孜艺" deg="博士" >}}气井井筒与管道气液两相流机理模型，以及页岩气井、柱塞井生产异常工况的智能诊断{{< /student >}}
-{{< student name="武煜晰" deg="博士" >}}电潜泵油气（水）多相流扬程一维机理模型与 CFD{{< /student >}}
-{{< student name="贾皓" deg="博士" >}}研究方向未核实{{< /student >}}
-{{< student name="南子彬" deg="硕士" >}}全金属单螺杆泵气液混输流场模拟与结构参数优化{{< /student >}}
-{{< student name="程玉妮" deg="硕士" >}}FLNG 液化模块多源耦合激励动力响应{{< /student >}}
-{{< student name="李佳宁" deg="学位未核实" >}}管道瞬态气液两相流：漂移流模型、X-PINN 重构{{< /student >}}
-{{< student name="苏畅" deg="学位未核实" >}}热红外图像多帧亚像素超分辨率{{< /student >}}
-{{< student name="李进华" deg="学位未核实" >}}电潜泵内油水、气液两相流 CFD{{< /student >}}
-{{< student name="秦胜杰" deg="学位未核实" >}}海上宽幅电潜泵叶轮/导轮水力设计与 CFD 自动优化{{< /student >}}
-{{< student name="余泉" deg="学位未核实" >}}页岩气井分钟级生产数据异常工况诊断{{< /student >}}
-{{< student name="李晓茜" deg="学位未核实" >}}致密气井间歇生产排液 OLGA 模拟{{< /student >}}
-{{< student name="卓锦炀" deg="学位未核实" >}}电潜泵气液两相流 CFD{{< /student >}}
-{{< student name="张圳玒" deg="学位未核实" >}}CO₂ 长输管道运输模型{{< /student >}}
+{{< student name="秦孜艺" deg="博士研究生" >}}气井井筒与管道气液两相流机理模型，以及页岩气井、柱塞井生产异常工况的智能诊断{{< /student >}}
+{{< student name="武煜晰" deg="博士研究生" >}}电潜泵油气（水）多相流扬程一维机理模型与 CFD{{< /student >}}
+{{< student name="贾皓" deg="博士研究生" >}}研究方向未核实{{< /student >}}
+{{< student name="南子彬" deg="硕士研究生" >}}全金属单螺杆泵气液混输流场模拟与结构参数优化{{< /student >}}
+{{< student name="程玉妮" deg="硕士研究生" >}}FLNG 液化模块多源耦合激励动力响应{{< /student >}}
+{{< student name="李佳宁" deg="研究生" >}}管道瞬态气液两相流：漂移流模型、X-PINN 重构{{< /student >}}
+{{< student name="苏畅" deg="研究生" >}}热红外图像多帧亚像素超分辨率{{< /student >}}
+{{< student name="李进华" deg="研究生" >}}电潜泵内油水、气液两相流 CFD{{< /student >}}
+{{< student name="秦胜杰" deg="研究生" >}}海上宽幅电潜泵叶轮/导轮水力设计与 CFD 自动优化{{< /student >}}
+{{< student name="余泉" deg="研究生" >}}页岩气井分钟级生产数据异常工况诊断{{< /student >}}
+{{< student name="李晓茜" deg="研究生" >}}致密气井间歇生产排液 OLGA 模拟{{< /student >}}
+{{< student name="卓锦炀" deg="研究生" >}}电潜泵气液两相流 CFD{{< /student >}}
+{{< student name="张圳玒" deg="研究生" >}}CO₂ 长输管道运输模型{{< /student >}}
 </div>
 
 ### 已毕业 {#alumni}
 
 <div class="flip-students not-prose">
-{{< student name="贾皓" deg="硕士" >}}气井积液预测聚类优选与卷积神经网络预测{{< /student >}}
-{{< student name="李圆圆" deg="硕士" >}}离心泵性能曲线拐点特征识别泵内气液流型{{< /student >}}
-{{< student name="陈硕" deg="硕士" >}}卷积神经网络柱塞举升异常工况诊断{{< /student >}}
-{{< student name="高雪" deg="硕士" >}}级联深度学习识别管道漏磁信号{{< /student >}}
-{{< student name="贾毓江" deg="硕士" >}}VAE 柱塞举升数据增强与异常检测{{< /student >}}
-{{< student name="张晓程" deg="硕士" >}}模态分解分析电潜泵内气液两相流动{{< /student >}}
-{{< student name="李敖东" deg="硕士" >}}井下射流泵气液两相流 CFD 与特征参数优化{{< /student >}}
-{{< student name="刘昱君" deg="硕士" >}}柱塞举升智能诊断与优化{{< /student >}}
-{{< student name="冯龙" deg="学位未核实" >}}研究方向未核实{{< /student >}}
-{{< student name="周杭" deg="学位未核实" >}}研究方向未核实{{< /student >}}
+{{< student name="贾皓" deg="硕士研究生" >}}气井积液预测聚类优选与卷积神经网络预测{{< /student >}}
+{{< student name="李圆圆" deg="硕士研究生" >}}离心泵性能曲线拐点特征识别泵内气液流型{{< /student >}}
+{{< student name="陈硕" deg="硕士研究生" >}}卷积神经网络柱塞举升异常工况诊断{{< /student >}}
+{{< student name="高雪" deg="硕士研究生" >}}级联深度学习识别管道漏磁信号{{< /student >}}
+{{< student name="贾毓江" deg="硕士研究生" >}}VAE 柱塞举升数据增强与异常检测{{< /student >}}
+{{< student name="张晓程" deg="硕士研究生" >}}模态分解分析电潜泵内气液两相流动{{< /student >}}
+{{< student name="李敖东" deg="硕士研究生" >}}井下射流泵气液两相流 CFD 与特征参数优化{{< /student >}}
+{{< student name="刘昱君" deg="硕士研究生" >}}柱塞举升智能诊断与优化{{< /student >}}
+{{< student name="冯龙" deg="研究生" >}}研究方向未核实{{< /student >}}
+{{< student name="周杭" deg="研究生" >}}研究方向未核实{{< /student >}}
 </div>
 
 ### 与东南大学王建立教授共同培养 {#co-supervised}
 
 <div class="flip-students not-prose">
-{{< student name="张毓涵" deg="学位未核实" >}}气井泡排剂加注优化：风险感知的强化学习决策智能体{{< /student >}}
-{{< student name="施骋昊" deg="学位未核实" >}}气井泡排剂加注量的 Actor-Critic 强化学习推荐{{< /student >}}
-{{< student name="李欣翼" deg="学位未核实" >}}研究方向未核实{{< /student >}}
+{{< student name="张毓涵" deg="研究生" >}}气井泡排剂加注优化：风险感知的强化学习决策智能体{{< /student >}}
+{{< student name="施骋昊" deg="研究生" >}}气井泡排剂加注量的 Actor-Critic 强化学习推荐{{< /student >}}
+{{< student name="李欣翼" deg="研究生" >}}研究方向未核实{{< /student >}}
 </div>

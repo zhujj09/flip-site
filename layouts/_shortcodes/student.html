@@ -1,12 +1,12 @@
-{{- /* 学生卡片：{{< student name="姓名" deg="博士" photo="uploads/students/x.jpg" >}}研究方向{{< /student >}}；photo 省略时显示中性占位 */ -}}
+{{- /* 学生卡片（Smart Fields 式）：{{< student name="姓名" deg="博士研究生" photo="uploads/students/x.jpg" >}}研究方向{{< /student >}}；photo 省略时显示中性占位 */ -}}
 {{- $name := .Get "name" -}}
 {{- $deg := .Get "deg" -}}
 <div class="flip-student">
-  <div class="flip-student__name">{{ $name }}</div>
   {{- with .Get "photo" }}
   <img class="flip-student__photo" src="{{ . | relURL }}" alt="{{ $name }}" loading="lazy">
   {{- else }}
-  <div class="flip-student__photo flip-student__photo--empty" aria-hidden="true"><svg viewBox="0 0 64 64" width="56" height="56"><circle cx="32" cy="24" r="12" fill="currentColor"/><path d="M10 58c2-12 11-18 22-18s20 6 22 18z" fill="currentColor"/></svg></div>
+  <div class="flip-student__photo flip-student__photo--empty" aria-hidden="true"><svg viewBox="0 0 64 64" width="64" height="64"><circle cx="32" cy="24" r="12" fill="currentColor"/><path d="M10 58c2-12 11-18 22-18s20 6 22 18z" fill="currentColor"/></svg></div>
   {{- end }}
-  <div class="flip-student__desc"><strong>{{ $deg }}</strong>{{ with .Inner }} · {{ . | strings.TrimSpace }}{{ end }}</div>
+  <div class="flip-student__name">{{ $name }}{{ with $deg }}<span>（{{ . }}）</span>{{ end }}</div>
+  {{- with .Inner }}<div class="flip-student__desc">{{ . | strings.TrimSpace }}</div>{{ end }}
 </div>
