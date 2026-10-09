@@ -21,12 +21,12 @@ jobs:
   # Check deployment configuration
   config:
     if: github.repository_owner != 'HugoBlox'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       deploy-host: ${{ steps.check.outputs.host }}
     steps:
     - name: Checkout
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         sparse-checkout: hugoblox.yaml
         sparse-checkout-cone-mode: false
@@ -76,8 +76,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v5

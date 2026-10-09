@@ -1,7 +1,7 @@
 # FLIP 课题组网站（预览版）
 
 FLIP = **F**low (multiphase) · **L**ift (artificial) · **I**ntelligent **P**roduction
-多相流 · 人工举升 · 智能生产 — 中国石油大学（北京）机械工程学院 / 能源装备研究所
+多相流 · 人工举升 · 智慧开采 — 中国石油大学（北京）机械工程学院 / 能源装备研究所
 
 ![首页截图](.github/preview.png)
 
@@ -58,3 +58,7 @@ hugo --minify          # 输出到 public/
 - MIT Hatsopoulos Microfluids Laboratory：<https://hml.mit.edu/>
 - 清华大学反应工程实验室（FLOTU）：<http://www.flotu.tsinghua.edu.cn/>
 - 浙江大学化学工程与烯烃聚合课题组：<http://www.cregroup.zju.edu.cn/>
+
+## 致谢
+
+站点模板基于 [HugoBlox Kit](https://github.com/HugoBlox/kit)（MIT 许可）。为便于国内访问，已改用系统字体、去掉页脚推广链接和外部 CDN 资源。

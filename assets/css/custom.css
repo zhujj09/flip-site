@@ -10,3 +10,10 @@
 @media (min-width:1280px){.flip-areas .lg\:grid-cols-3{grid-template-columns:repeat(4,minmax(0,1fr))}}
 /* 首页“负责人”“新闻”区块放宽 */
 #pi .max-w-prose,#news .max-w-prose{max-width:64rem;width:100%}
+/* 系统字体栈：中英文兼顾，不依赖任何在线字体 */
+html:root{
+  --hb-font-body:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Source Han Sans SC",sans-serif;
+  --hb-font-nav:var(--hb-font-body);
+  --hb-font-heading:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Source Han Sans SC",sans-serif;
+  --hb-font-code:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono","Courier New",monospace;
+}

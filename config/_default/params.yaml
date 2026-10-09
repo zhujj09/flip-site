@@ -19,7 +19,7 @@ hugoblox:
     # Schema.org type for structured data
     type: organization # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "多相流 · 人工举升 · 智能生产"
+    tagline: "多相流 · 人工举升 · 智慧开采"
     # Site meta description for search engines and social sharing
     description: "FLIP（Multiphase Flow, Artificial Lift, Intelligent Production）课题组，中国石油大学（北京）。"
     # Social accounts (used for meta tags like Twitter Cards)
@@ -60,7 +60,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "academic"
+    pack: "system"  # 不加载在线字体，字体栈见 assets/css/custom.css
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -114,9 +114,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} FLIP 课题组 · 中国石油大学（北京）｜预览版，内容待用户审定"
+    notice: "© {year} FLIP 课题组 · 中国石油大学（北京）"
     license:
-      type: cc # cc | custom
+      type: custom # 不填 label 时不显示 CC 图标
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

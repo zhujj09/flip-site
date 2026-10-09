@@ -11,7 +11,7 @@ sections:
         text: "预览版 · 内容摘自学校个人主页，图片与组员信息待补"
       title: "FLIP 课题组"
       text: |-
-        **多相流 · 人工举升 · 智能生产**<br>
+        **多相流 · 人工举升 · 智慧开采**<br>
         Multiphase Flow · Artificial Lift · Intelligent Production<br>
         中国石油大学（北京）机械工程学院 / 能源装备研究所
       primary_action:

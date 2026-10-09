@@ -22,6 +22,11 @@ removePathAccents: true
 ############################
 
 cascade:
+  # 关闭页面底部的 X / Facebook / LinkedIn 分享按钮（国内不可用）
+  - target:
+      path: /**
+    params:
+      share: false
   - target:
       path: /slides/**
       kind: page
