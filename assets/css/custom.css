@@ -162,3 +162,6 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .flip-alumni li{padding:.5rem 0;border-bottom:1px solid #e2e8f0;color:#334155;font-size:.95rem;line-height:1.7}
 .flip-alumni b{display:inline-block;min-width:3.5rem;color:#1d4ed8;font-weight:700}
 .dark .flip-alumni li{border-color:#334155;color:#cbd5e1}.dark .flip-alumni b{color:#93c5fd}
+.flip-people--compact .flip-person>a{flex:0 0 110px;display:block}
+.flip-people--compact .flip-person__photo{width:110px!important;max-width:none;height:140px!important;object-fit:cover!important;object-position:50% 20%;aspect-ratio:auto}
+.flip-pi-brief__photo,.flip-bio-head__photo{object-fit:cover;object-position:50% 20%;flex:none}
