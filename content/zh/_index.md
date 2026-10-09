@@ -47,7 +47,7 @@ sections:
           image: research/lift.jpg  # 图片在 assets/media/research/，换图直接覆盖同名文件
           gradient: from-indigo-500 to-blue-700
           topics: [电潜泵, 柱塞气举, 射流泵与气举]
-          url: research/#esp
+          url: research/#lift
         - name: 智慧开采
           description: 机理模型与现场数据融合的工况诊断、寿命预测与制度优化；物理信息神经网络快速瞬态计算。
           icon: hero/cpu-chip

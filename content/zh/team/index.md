@@ -10,8 +10,8 @@ date: 2026-10-09
     <a href="{{< u "team/zhujianjun/" >}}"><img src="{{< u "uploads/people/zhujianjun.jpg" >}}" alt="朱建军" class="flip-person__photo"></a>
     <div>
     <div class="flip-person__name">朱建军 <span>负责人（PI）</span></div>
-    <div class="flip-person__title">副教授，机械工程学院副院长；学术型硕导、博士生导师、工程博导</div>
-    <div class="flip-person__aff">中国石油大学（北京）机械工程学院 / 能源装备研究所</div>
+    <div class="flip-person__title">副教授；博士生导师、硕士生导师</div>
+    <div class="flip-person__aff">中国石油大学（北京）机械工程学院 副院长</div>
     <div class="flip-person__links"><a href="{{< u "team/zhujianjun/" >}}">详细介绍 →</a> · <a href="https://faculty.cup.edu.cn/zhujianjun/index.html" target="_blank" rel="noopener">学校个人主页</a></div>
     </div>
   </div>
@@ -48,16 +48,19 @@ date: 2026-10-09
 ### 已毕业 {#alumni}
 
 <ul class="flip-alumni not-prose">
-  <li><b>2026</b>冯龙（国电投国核），周杭（川庆钻探），刘昱君（南京高速齿轮）</li>
-  <li><b>2025</b>贾毓江（新疆油田），高雪（青岛赛轮），张晓程（国家管网甘肃分公司），李敖东（中石油工程技术研究院）</li>
+  <li><b>2026</b>冯龙（国电投国核），周杭（川庆钻探），刘昱君（南京高速齿轮），高筱晨（吉利汽车），杨杰（深圳新凯来）</li>
+  <li><b>2025</b>贾毓江（新疆油田），高雪（青岛赛轮），张晓程（国家管网甘肃分公司），李敖东（中石油工程技术研究院），谢嘉梁（中国电子科技集团），马赛飞（吉利汽车）</li>
+  <li><b>2024</b>谢宇琨（江南造船），钟梓康（去向未核实）</li>
   <li><b>2023</b>陈硕（航材院）</li>
   <li><b>2022</b>贾皓（中核矿业），李圆圆（经纬恒润）</li>
 </ul>
 
+<p class="flip-alumni-note">高筱晨、杨杰、谢嘉梁、马赛飞、谢宇琨、钟梓康为与东南大学王建立教授共同培养。</p>
+
 ### 与东南大学王建立教授共同培养 {#co-supervised}
 
 <div class="flip-students not-prose">
-{{< student name="张毓涵" deg="研究生" >}}气井泡排剂加注优化：风险感知的强化学习决策智能体{{< /student >}}
+{{< student name="张毓涵" deg="硕士研究生" >}}气井泡排剂加注优化：风险感知的强化学习决策智能体{{< /student >}}
 {{< student name="施骋昊" deg="研究生" >}}气井泡排剂加注量的 Actor-Critic 强化学习推荐{{< /student >}}
 {{< student name="李欣翼" deg="研究生" >}}研究方向未核实{{< /student >}}
 </div>

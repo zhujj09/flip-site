@@ -165,3 +165,13 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .flip-people--compact .flip-person>a{flex:0 0 110px;display:block}
 .flip-people--compact .flip-person__photo{width:110px!important;max-width:none;height:140px!important;object-fit:cover!important;object-position:50% 20%;aspect-ratio:auto}
 .flip-pi-brief__photo,.flip-bio-head__photo{object-fit:cover;object-position:50% 20%;flex:none}
+.flip-alumni-note{margin:-1.25rem 0 2rem;font-size:.88rem;color:#64748b}
+.dark .flip-alumni-note{color:#94a3b8}
+/* 研究方向页：每个方向后的支撑论文 */
+.flip-theme-pubs{margin:1rem 0 2.75rem;padding:1rem 1.25rem;background:#f8fafc;border-left:3px solid #1d4ed8;border-radius:.375rem}
+.flip-theme-pubs h4{margin:0 0 .5rem;font-size:1rem;color:#0f172a}
+.flip-theme-pubs ol{margin:0;padding-left:1.25rem;font-size:.9rem;line-height:1.6;color:#334155}
+.flip-theme-pubs li{margin:.25rem 0}
+.flip-theme-pubs a{color:#1d4ed8}
+.dark .flip-theme-pubs{background:#0f172a;border-color:#60a5fa}.dark .flip-theme-pubs h4{color:#e2e8f0}.dark .flip-theme-pubs ol{color:#cbd5e1}
+.flip-research-toc{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin:1rem 0 2rem;font-size:.95rem}
