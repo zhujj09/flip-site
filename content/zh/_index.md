@@ -34,35 +34,23 @@ sections:
       subtitle: ''
       text: ''
       items:
-        - name: 井筒多相流与积液预测
-          description: 以段塞单元为核心的多倾角统一井筒模型、漂移流瞬态模型，以及 48 个积液模型的聚类优选。
+        - name: 多相流
+          description: 井筒多相流统一模型与漂移流瞬态模型，气井积液预测与模型优选。
           icon: hero/beaker
           gradient: from-blue-500 to-sky-600
-          topics: [统一井筒模型, 漂移流瞬态模型, 积液预测]
+          topics: [统一井筒模型, 漂移流瞬态, 积液预测]
           url: research/#multiphase
-        - name: 柱塞气举
-          description: 全周期柱塞动力学模型、OLGA 瞬态建模与合成工况数据、智能工况诊断与制度优化。
+        - name: 人工举升
+          description: 电潜泵气液两相举升机理与增压模型；柱塞气举、射流泵与气举的机理建模和设计计算。
           icon: hero/arrows-up-down
           gradient: from-indigo-500 to-blue-700
-          topics: [全周期模型, 工况诊断, 制度优化]
-          url: research/#plunger
-        - name: 电潜泵气液两相举升
-          description: 旋转叶轮内气泡、流型与增压退化机理，喘振/气锁边界，高粘、乳化与含砂工况，深海电潜泵瞬态多相流。
-          icon: hero/cog-6-tooth
-          gradient: from-cyan-600 to-teal-700
-          topics: [流型转化, QBM 增压模型, 深海电潜泵]
+          topics: [电潜泵, 柱塞气举, 射流泵与气举]
           url: research/#esp
-        - name: 射流泵与气举
-          description: 同心双管水力射流泵两相/三相机理模型与气阻临界条件；气举启动压力、气举阀与耦合井筒计算。
-          icon: hero/arrow-trending-up
-          gradient: from-sky-600 to-indigo-700
-          topics: [射流泵, 气阻边界, 气举]
-          url: research/#jetpump
-        - name: 智慧开采：AI 与物理信息瞬态建模
-          description: 机理模型与现场数据融合的工况诊断、寿命预测与制度优化；PI-DeepONet、XPINN 快速瞬态计算。
+        - name: 智慧开采
+          description: 机理模型与现场数据融合的工况诊断、寿命预测与制度优化；物理信息神经网络快速瞬态计算。
           icon: hero/cpu-chip
           gradient: from-slate-600 to-slate-800
-          topics: [智能诊断, PI-DeepONet, XPINN]
+          topics: [智能诊断, 制度优化, PI-DeepONet / XPINN]
           url: research/#ai
     design:
       layout: cards
