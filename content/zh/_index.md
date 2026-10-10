@@ -6,26 +6,17 @@ type: landing
 
 sections:
   - block: hero
+    id: intro
     content:
-      announcement:
-        text: "预览版"
       title: "FLIP 课题组"
       text: |-
-        **多相流 · 人工举升 · 智慧开采**<br>
-        Multiphase Flow · Artificial Lift · Intelligent Production<br>
-        中国石油大学（北京）机械工程学院 / 能源装备研究所
-      primary_action:
-        text: 研究方向
-        url: /research/
-        icon: hero/arrow-right
-      secondary_action:
-        text: 加入我们
-        url: /join-us/
+        多相流 · 人工举升 · 智慧开采<br>
+        <span class="flip-band__sub">中国石油大学（北京）机械工程学院 / 能源装备研究所</span>
     design:
-      css_class: "flip-hero"
-      css_style: "background-image:url('uploads/hero-placeholder.svg');background-size:cover;background-position:center;"
+      css_class: "flip-band"
+      css_style: "background-color:#0b2545;"
       spacing:
-        padding: ["6rem", 0, "6rem", 0]
+        padding: ["2.5rem", 0, "2.5rem", 0]
 
   - block: research-areas
     id: research

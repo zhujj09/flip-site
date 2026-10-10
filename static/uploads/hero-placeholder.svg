@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
-  <defs><pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-    <rect width="28" height="28" fill="#f1f5f9"/><rect width="14" height="28" fill="#e8eef5"/></pattern></defs>
-  <rect width="1600" height="600" fill="url(#p)"/>
-  <rect x="580" y="520" width="440" height="48" rx="6" fill="#fff7ed" stroke="#fdba74"/>
-  <text x="800" y="551" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#b45309" text-anchor="middle">待补：首页横幅大图（实验平台/现场照片）</text>
-</svg>

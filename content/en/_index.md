@@ -4,18 +4,17 @@ date: 2026-10-09
 type: landing
 sections:
   - block: hero
+    id: intro
     content:
       title: "FLIP Research Group"
       text: |-
-        **Multiphase Flow · Artificial Lift · Intelligent Production**<br>
-        China University of Petroleum (Beijing)
-      primary_action:
-        text: Research
-        url: /en/research/
+        Multiphase Flow · Artificial Lift · Intelligent Production<br>
+        <span class="flip-band__sub">China University of Petroleum (Beijing)</span>
     design:
-      css_style: "background-image:url('../uploads/hero-placeholder.svg');background-size:cover;background-position:center;"
+      css_class: "flip-band"
+      css_style: "background-color:#0b2545;"
       spacing:
-        padding: ["6rem", 0, "6rem", 0]
+        padding: ["2.5rem", 0, "2.5rem", 0]
   - block: markdown
     content:
       title: ''
