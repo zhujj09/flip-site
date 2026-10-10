@@ -221,3 +221,23 @@ section#intro .hero-block-container>div>div{max-width:calc(var(--flip-w) - 2*var
 section#intro .text-center{text-align:left!important}
 section#intro p{margin-top:0!important;line-height:1.7!important}
 section#intro+section#research>div{padding-top:2.75rem!important}
+/* homepage vertical tightening (ZH/EN) */
+section#intro>div{padding-top:0!important;padding-bottom:0!important}
+section#intro .hero-block-container>div>div{padding:1.25rem 0 1.15rem!important}
+section#intro h1{font-size:clamp(1.6rem,2.6vw,2.1rem)!important;margin:0 0 .35rem!important}
+section#intro p{font-size:1.02rem!important;line-height:1.6!important}
+section#intro .flip-band__sub{font-size:.9rem}
+section#research>div,section#intro+section#research>div{padding-top:2rem!important;padding-bottom:2.25rem!important}
+section#research .text-center{margin:0 0 1.25rem!important}
+section#research .p-6{padding:1.25rem 1.4rem 1.1rem}
+section#research h3{margin-bottom:.5rem}
+section#research h3+p{line-height:1.7;margin-bottom:.75rem}
+section#pi>div.flex,section#news>div.flex{padding-top:2rem!important;padding-bottom:2.25rem!important}
+section#pi>div>.text-3xl,section#news>div>.text-3xl{margin-bottom:1.1rem!important}
+section#research h2::after,section#pi>div>.text-3xl::after,section#news>div>.text-3xl::after{margin-top:.5rem}
+section#news li{margin:.4rem 0}
+section#news .prose>p:last-child{margin-top:1rem}
+section#news+section,section#news{margin-bottom:0}
+section#research,section#pi,section#news{padding-top:0!important;padding-bottom:0!important}
+section#research>.home-section-bg{padding:0!important}
+section#news ul{margin-bottom:0!important}

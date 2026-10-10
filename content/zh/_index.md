@@ -16,7 +16,7 @@ sections:
       css_class: "flip-band"
       css_style: "background-color:#0b2545;"
       spacing:
-        padding: ["2.5rem", 0, "2.5rem", 0]
+        padding: ["1.5rem", 0, "1.5rem", 0]
 
   - block: research-areas
     id: research
