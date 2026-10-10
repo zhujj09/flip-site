@@ -251,3 +251,7 @@ section#research .text-center{margin:0 0 .9rem!important}
 section#pi>div.flex,section#news>div.flex{padding-top:1.25rem!important;padding-bottom:1.5rem!important}
 section#pi>div>.text-3xl,section#news>div>.text-3xl{margin-bottom:.8rem!important}
 body footer{margin-top:1.5rem!important}
+
+/* 页脚校院联合标识（fig13 全色透明底）；主色仍用 #0b2545，不改学院蓝 */
+.flip-footer-brand{display:flex;justify-content:center;margin:0 auto .55rem;padding:0 1rem}
+.flip-footer-brand__logo{height:36px;width:auto;max-width:min(420px,90vw);object-fit:contain;display:block}
