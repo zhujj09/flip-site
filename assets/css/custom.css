@@ -252,6 +252,7 @@ section#pi>div.flex,section#news>div.flex{padding-top:1.25rem!important;padding-
 section#pi>div>.text-3xl,section#news>div>.text-3xl{margin-bottom:.8rem!important}
 body footer{margin-top:1.5rem!important}
 
-/* 页脚校院联合标识（fig13 全色透明底）；主色仍用 #0b2545，不改学院蓝 */
-.flip-footer-brand{display:flex;justify-content:center;margin:0 auto .55rem;padding:0 1rem}
-.flip-footer-brand__logo{height:36px;width:auto;max-width:min(420px,90vw);object-fit:contain;display:block}
+/* 首页深蓝条右侧：校院联合标识（fig13 反白版，透明底）；左侧保留 FLIP 标题 (ZH/EN) */
+section#intro::after{content:"";position:absolute;top:50%;transform:translateY(-50%);right:max(var(--flip-pad),calc((100% - var(--flip-w))/2 + var(--flip-pad)));width:min(300px,30vw);aspect-ratio:826/125;background:url("../uploads/branding/cup-college-joint-white.png") right center/contain no-repeat;pointer-events:none}
+@media (min-width:768px){section#intro .hero-block-container>div>div{padding-right:min(330px,33vw)!important}}
+@media (max-width:767px){section#intro::after{position:static;display:block;transform:none;width:220px;margin:0 var(--flip-pad) .9rem;background-position:left center}}
