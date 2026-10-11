@@ -7,26 +7,6 @@ date: 2026-10-09
 
 课题组的实验工作依托本校离心泵气液两相可视化实验台，以及负责人在塔尔萨大学期间使用的 TUALP 多级电潜泵环路。多级离心泵可视化综合测试平台正在论证建设中。数值模拟与模型训练依托课题组自有的两台高性能计算服务器。
 
-## 计算资源 {#computing}
-
-课题组现有两台自有计算服务器，用于电潜泵全尺寸三维瞬态 CFD 模拟、井筒多相流数值计算，以及 PINN 等深度神经网络模型训练。
-
-| | 双路 EPYC 9965 CPU–GPU 服务器（2025） | 双路 EPYC 7742 计算服务器 |
-|---|---|---|
-| 处理器 | 2 × AMD EPYC 9965，共 384 物理核 | 2 × AMD EPYC 7742，共 128 核 256 线程 |
-| 内存 | 1 TB DDR5（16 × 64 GB） | 256 GB |
-| GPU | 2 × NVIDIA RTX 5090（32 GB） | 2 × NVIDIA RTX 4090（24 GB），2023 年升级 |
-| 存储 | 约 20 TB | 约 10 TB |
-| 主要用途 | 大规模并行 CFD、多物理场耦合计算、PINN 训练 | CFD 模拟、深度学习模型训练 |
-
-双路 EPYC 9965 服务器配备两块 RTX 5090，构成 CPU–GPU 异构协同计算环境。
-
-<div class="flip-figs flip-figs--computing">
-{{< fig src="uploads/platforms/server-epyc9965-cpu.jpg" alt="水冷双路 EPYC CPU 与内存" caption="水冷双路 EPYC CPU 与 16 条内存" >}}
-{{< fig src="uploads/platforms/server-epyc9965-gpu.jpg" alt="RTX 5090 显卡" caption="RTX 5090 显卡与液冷管路" >}}
-{{< fig src="uploads/platforms/server-epyc9965-chassis-v2.jpg" alt="双路 EPYC 9965 服务器整机" caption="整机（闭合机箱）" >}}
-</div>
-
 ## 本校离心泵气液两相可视化实验台 {#cup-rig}
 
 改造自离心泵水力性能台（国家自然科学基金青年项目 52004304 支持），用于超低比转速离心泵在高含水、高气液比工况下的增压性能测试，以及旋转叶轮全流道高速摄像观测。主要设备包括 PHANTOM V1212 高速运动分析系统、8530B-200 高频压力传感器、8530C-50 高频压差传感器和多通道数据采集系统。通过可视化观测，识别出叶轮内分散气泡流、泡状流、气囊流和分层流等流型。2025 年起在面上项目支持下升级：温控 0–60 ℃（±0.5 ℃），5000 fps 高速摄像。
@@ -67,3 +47,24 @@ date: 2026-10-09
 - 永磁同步电机加矢量变频调速，0–6000 rpm；流量 0–30 m³/h，压力 0.6–3.0 MPa。
 
 {{< fig src="uploads/platforms/multistage-pump-visual-planned.jpg" alt="多级离心泵可视化综合测试平台示意图（规划）" caption="平台示意图（规划方案，非实物）" >}}
+
+## 计算资源 {#computing}
+
+课题组现有两台自有计算服务器，用于电潜泵全尺寸三维瞬态 CFD 模拟、井筒多相流数值计算，以及 PINN 等深度神经网络模型训练。
+
+| | 双路 EPYC 9965 CPU–GPU 服务器（2025） | 双路 EPYC 7742 计算服务器 |
+|---|---|---|
+| 处理器 | 2 × AMD EPYC 9965，共 384 物理核 | 2 × AMD EPYC 7742，共 128 核 256 线程 |
+| 内存 | 1 TB DDR5（16 × 64 GB） | 256 GB |
+| GPU | 2 × NVIDIA RTX 5090（32 GB） | 2 × NVIDIA RTX 4090（24 GB），2023 年升级 |
+| 存储 | 约 20 TB | 约 10 TB |
+| 主要用途 | 大规模并行 CFD、多物理场耦合计算、PINN 训练 | CFD 模拟、深度学习模型训练 |
+
+双路 EPYC 9965 服务器配备两块 RTX 5090，构成 CPU–GPU 异构协同计算环境。
+
+<div class="flip-figs flip-figs--computing">
+{{< fig src="uploads/platforms/server-epyc9965-cpu.jpg" alt="水冷双路 EPYC CPU 与内存" caption="水冷双路 EPYC CPU 与 16 条内存" >}}
+{{< fig src="uploads/platforms/server-epyc9965-gpu.jpg" alt="RTX 5090 显卡" caption="RTX 5090 显卡与液冷管路" >}}
+{{< fig src="uploads/platforms/server-epyc9965-chassis-v2.jpg" alt="双路 EPYC 9965 服务器整机" caption="整机（闭合机箱）" >}}
+</div>
+

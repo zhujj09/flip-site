@@ -7,26 +7,6 @@ date: 2026-10-09
 
 The group's experiments rely on the in-house centrifugal-pump gas–liquid visualization rig at China University of Petroleum (Beijing) and on the TUALP multistage ESP loop used by the PI at The University of Tulsa. A multistage pump visualization platform is being planned and built. Numerical simulation and model training run on the group's two high-performance computing servers.
 
-## Computing resources {#computing}
-
-The group operates two servers of its own, used for full-scale 3-D transient CFD of ESPs, wellbore multiphase-flow computation, and training of deep neural networks such as PINNs.
-
-| | Dual EPYC 9965 CPU–GPU server (2025) | Dual EPYC 7742 compute server |
-|---|---|---|
-| CPU | 2 × AMD EPYC 9965, 384 physical cores in total | 2 × AMD EPYC 7742, 128 cores / 256 threads |
-| Memory | 1 TB DDR5 (16 × 64 GB) | 256 GB |
-| GPU | 2 × NVIDIA RTX 5090 (32 GB) | 2 × NVIDIA RTX 4090 (24 GB), added in 2023 |
-| Storage | about 20 TB | about 10 TB |
-| Main use | Large-scale parallel CFD, multiphysics coupling, PINN training | CFD simulation, deep-learning model training |
-
-The dual EPYC 9965 server, with two RTX 5090 GPUs, forms a CPU–GPU heterogeneous computing environment.
-
-<div class="flip-figs flip-figs--computing">
-{{< fig src="uploads/platforms/server-epyc9965-cpu.jpg" alt="Liquid-cooled dual EPYC CPUs and memory" caption="Liquid-cooled dual EPYC CPUs and 16 DIMMs" >}}
-{{< fig src="uploads/platforms/server-epyc9965-gpu.jpg" alt="RTX 5090 GPU" caption="RTX 5090 GPU and liquid-cooling lines" >}}
-{{< fig src="uploads/platforms/server-epyc9965-chassis-v2.jpg" alt="Dual EPYC 9965 server, closed chassis" caption="Closed chassis" >}}
-</div>
-
 ## Centrifugal pump gas–liquid visualization rig (CUP) {#cup-rig}
 
 Rebuilt from a centrifugal-pump hydraulic test bench (supported by NSFC Young Scientists Fund 52004304), the rig is used to test the boosting performance of ultra-low specific-speed centrifugal pumps at high water cut and high gas–liquid ratio, and to film the full flow passage of the rotating impeller at high speed. Main instruments include a PHANTOM V1212 high-speed motion analysis system, 8530B-200 high-frequency pressure transducers, 8530C-50 high-frequency differential-pressure transducers and a multichannel data acquisition system. Visualization has identified dispersed-bubble, bubbly, gas-pocket and segregated flow inside the impeller. Since 2025 the rig has been upgraded under an NSFC General Program grant: temperature control from 0 to 60 °C (±0.5 °C) and 5000 fps high-speed imaging.
@@ -67,3 +47,24 @@ This platform is at the planning and construction stage and **has not been built
 - Permanent-magnet synchronous motor with vector frequency control, 0–6000 rpm; flow 0–30 m³/h, pressure 0.6–3.0 MPa.
 
 {{< fig src="uploads/platforms/multistage-pump-visual-planned.jpg" alt="Multistage pump visualization platform (planned)" caption="Platform concept (planned design, not a photo of built equipment)" >}}
+
+## Computing resources {#computing}
+
+The group operates two servers of its own, used for full-scale 3-D transient CFD of ESPs, wellbore multiphase-flow computation, and training of deep neural networks such as PINNs.
+
+| | Dual EPYC 9965 CPU–GPU server (2025) | Dual EPYC 7742 compute server |
+|---|---|---|
+| CPU | 2 × AMD EPYC 9965, 384 physical cores in total | 2 × AMD EPYC 7742, 128 cores / 256 threads |
+| Memory | 1 TB DDR5 (16 × 64 GB) | 256 GB |
+| GPU | 2 × NVIDIA RTX 5090 (32 GB) | 2 × NVIDIA RTX 4090 (24 GB), added in 2023 |
+| Storage | about 20 TB | about 10 TB |
+| Main use | Large-scale parallel CFD, multiphysics coupling, PINN training | CFD simulation, deep-learning model training |
+
+The dual EPYC 9965 server, with two RTX 5090 GPUs, forms a CPU–GPU heterogeneous computing environment.
+
+<div class="flip-figs flip-figs--computing">
+{{< fig src="uploads/platforms/server-epyc9965-cpu.jpg" alt="Liquid-cooled dual EPYC CPUs and memory" caption="Liquid-cooled dual EPYC CPUs and 16 DIMMs" >}}
+{{< fig src="uploads/platforms/server-epyc9965-gpu.jpg" alt="RTX 5090 GPU" caption="RTX 5090 GPU and liquid-cooling lines" >}}
+{{< fig src="uploads/platforms/server-epyc9965-chassis-v2.jpg" alt="Dual EPYC 9965 server, closed chassis" caption="Closed chassis" >}}
+</div>
+
