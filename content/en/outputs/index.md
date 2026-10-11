@@ -143,7 +143,7 @@ The group has published over 100 papers (50+ SCI-indexed) with more than 3,500 G
 | Plunger-lift anomaly diagnosis program | CNN diagnosis and online diagnosis UI | PetroChina Research Institute of Petroleum Exploration & Development（2023） |
 | Gas-well liquid-loading diagnosis model library | 48 liquid-loading models with clustering-based selection | PetroChina Research Institute of Petroleum Exploration & Development（2022） |
 
-<div class="flip-figs flip-out-figs">
+<div class="flip-figs flip-out-figs flip-figs--computing">
 {{< fig src="uploads/software/hgw-transient-v1.jpg" alt="Horizontal gas-well transient simulator main UI" caption="Horizontal Gas Well Transient Simulator V1.0" >}}
 {{< fig src="uploads/software/esp-management-v1.jpg" alt="Intelligent ESP management system — mechanistic model UI" caption="Intelligent ESP Management System V1.0" >}}
 {{< fig src="uploads/software/jet-pump-analysis.jpg" alt="Jet-pump software two-phase function UI" caption="Intelligent jet-pump condition analysis software" >}}

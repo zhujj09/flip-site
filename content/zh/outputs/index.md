@@ -143,7 +143,7 @@ aliases:
 | 柱塞气举异常工况诊断程序 | CNN 诊断、在线诊断界面 | 中国石油勘探开发研究院（2023） |
 | 气井积液诊断模型库 | 48 个积液模型、聚类优选 | 中国石油勘探开发研究院（2022） |
 
-<div class="flip-figs flip-out-figs">
+<div class="flip-figs flip-out-figs flip-figs--computing">
 {{< fig src="uploads/software/hgw-transient-v1.jpg" alt="水平气井瞬态计算软件主页面" caption="水平气井瞬态计算软件 V1.0" >}}
 {{< fig src="uploads/software/esp-management-v1.jpg" alt="智能电潜泵管理系统机理模型界面" caption="智能电潜泵管理系统 V1.0" >}}
 {{< fig src="uploads/software/jet-pump-analysis.jpg" alt="射流泵软件两相流功能界面" caption="射流泵智能化工况分析软件" >}}

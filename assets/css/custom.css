@@ -210,7 +210,12 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 .flip-out-publist .flip-out-year{margin:1.6rem 0 .4rem;font-size:1.1rem;color:#0b2545;border-bottom:1px solid #e2e8f0;padding-bottom:.2rem}
 .flip-out-publist .flip-out-pubs{margin-top:.3rem}
 .flip-out-publist .flip-out-pubs li{margin:.35rem 0;font-size:.93rem;line-height:1.55}
-.flip-out-figs{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+/* 软件截图：与计算资源同款三图等高一行 */
+.flip-out-figs{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;gap:.65rem}
+.flip-out-figs .flip-fig{display:flex;flex-direction:column;margin:0;height:100%}
+.flip-out-figs .flip-fig img{width:100%;height:260px;max-height:none;object-fit:contain;object-position:center;background:#fff}
+.flip-out-figs .flip-fig figcaption{margin-top:.35rem;flex:none}
+@media (max-width:699.98px){.flip-out-figs{grid-template-columns:1fr}.flip-out-figs .flip-fig img{height:220px}}
 .flip-out-proj td:last-child,.flip-out-proj th:last-child{white-space:nowrap}
 
 /* 页脚联系方式一行 */

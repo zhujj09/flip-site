@@ -16,10 +16,10 @@ The group operates two servers of its own, used for full-scale 3-D transient CFD
 | CPU | 2 × AMD EPYC 9965, 384 physical cores in total | 2 × AMD EPYC 7742, 128 cores / 256 threads |
 | Memory | 1 TB DDR5 (16 × 64 GB) | 256 GB |
 | GPU | 2 × NVIDIA RTX 5090 (32 GB) | 2 × NVIDIA RTX 4090 (24 GB), added in 2023 |
-| Storage | about 20 TB | — |
+| Storage | about 20 TB | about 10 TB |
 | Main use | Large-scale parallel CFD, multiphysics coupling, PINN training | CFD simulation, deep-learning model training |
 
-The dual EPYC 9965 server was accepted in June 2025 and is installed in Room B914 of the Main Building. It uses a Gigabyte MZ73-LM2 motherboard with liquid-cooled CPUs, and together with two RTX 5090 cards forms a CPU–GPU heterogeneous computing environment.
+The dual EPYC 9965 server, with two RTX 5090 GPUs, forms a CPU–GPU heterogeneous computing environment.
 
 <div class="flip-figs flip-figs--computing">
 {{< fig src="uploads/platforms/server-epyc9965-cpu.jpg" alt="Liquid-cooled dual EPYC CPUs and memory" caption="Liquid-cooled dual EPYC CPUs and 16 DIMMs" >}}

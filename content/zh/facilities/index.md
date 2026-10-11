@@ -16,10 +16,10 @@ date: 2026-10-09
 | 处理器 | 2 × AMD EPYC 9965，共 384 物理核 | 2 × AMD EPYC 7742，共 128 核 256 线程 |
 | 内存 | 1 TB DDR5（16 × 64 GB） | 256 GB |
 | GPU | 2 × NVIDIA RTX 5090（32 GB） | 2 × NVIDIA RTX 4090（24 GB），2023 年升级 |
-| 存储 | 约 20 TB | — |
+| 存储 | 约 20 TB | 约 10 TB |
 | 主要用途 | 大规模并行 CFD、多物理场耦合计算、PINN 训练 | CFD 模拟、深度学习模型训练 |
 
-双路 EPYC 9965 服务器于 2025 年 6 月验收，安装在主楼 B914，主板为技嘉 MZ73-LM2，CPU 采用水冷散热，与两块 RTX 5090 构成 CPU–GPU 异构协同计算环境。
+双路 EPYC 9965 服务器配备两块 RTX 5090，构成 CPU–GPU 异构协同计算环境。
 
 <div class="flip-figs flip-figs--computing">
 {{< fig src="uploads/platforms/server-epyc9965-cpu.jpg" alt="水冷双路 EPYC CPU 与内存" caption="水冷双路 EPYC CPU 与 16 条内存" >}}
