@@ -21,9 +21,7 @@ The group operates two servers of its own, used for full-scale 3-D transient CFD
 
 The dual EPYC 9965 server was accepted in June 2025 and is installed in Room B914 of the Main Building. It uses a Gigabyte MZ73-LM2 motherboard with liquid-cooled CPUs, and together with two RTX 5090 cards forms a CPU–GPU heterogeneous computing environment.
 
-{{< fig src="uploads/platforms/server-epyc9965-inside.jpg" alt="Inside the dual EPYC 9965 server" caption="Inside the dual EPYC 9965 server: liquid-cooled dual CPUs, 16 memory modules and RTX 5090 GPUs" >}}
-
-{{< fig src="uploads/platforms/server-epyc9965-sysinfo.jpg" alt="System information of the dual EPYC 9965 server" caption="System information: 2 × EPYC 9965 (192 cores each), 1 TB memory, about 20 TB storage" >}}
+{{< fig src="uploads/platforms/server-epyc9965-chassis.jpg" alt="Dual EPYC 9965 server, closed chassis" caption="Dual EPYC 9965 CPU–GPU server (closed chassis)" >}}
 
 ## Centrifugal pump gas–liquid visualization rig (CUP) {#cup-rig}
 
