@@ -11,7 +11,7 @@ aliases:
 
 ## Representative papers {#papers}
 
-The group has published over 100 papers (50+ SCI-indexed) with more than 3,500 Google Scholar citations. Representative papers by year are listed below; the full list is on [Google Scholar](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en). Selected papers by research area are on the [Research]({{< u "en/research/" >}}) detail pages.
+The group has published over 100 papers (60+ SCI-indexed) with more than 3,500 Google Scholar citations (h-index 32, i10-index 61). Representative papers by year are listed below; the full list is on [Google Scholar](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en). Selected papers by research area are on the [Research]({{< u "en/research/" >}}) detail pages.
 
 <div class="flip-out-publist">
 <h3 class="flip-out-year">2026</h3>

@@ -11,7 +11,7 @@ aliases:
 
 ## 代表论文 {#papers}
 
-发表学术论文 100 余篇，其中 SCI 检索 50 余篇，Google 学术引用 3500 余次。下面按年份列出代表论文，完整列表见 [Google Scholar](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en)；按研究方向分类的精选论文见各[研究方向]({{< u "research/" >}})详情页。
+发表学术论文 100 余篇，其中 SCI 检索 60 余篇，Google 学术引用 3500 余次，h 指数 32，i10 指数 61。下面按年份列出代表论文，完整列表见 [Google Scholar](https://scholar.google.com/citations?user=sfsM2TUAAAAJ&hl=en)；按研究方向分类的精选论文见各[研究方向]({{< u "research/" >}})详情页。
 
 <div class="flip-out-publist">
 <h3 class="flip-out-year">2026</h3>
