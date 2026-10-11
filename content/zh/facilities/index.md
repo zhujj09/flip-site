@@ -21,7 +21,7 @@ date: 2026-10-09
 
 双路 EPYC 9965 服务器于 2025 年 6 月验收，安装在主楼 B914，主板为技嘉 MZ73-LM2，CPU 采用水冷散热，与两块 RTX 5090 构成 CPU–GPU 异构协同计算环境。
 
-<div class="flip-figs">
+<div class="flip-figs flip-figs--computing">
 {{< fig src="uploads/platforms/server-epyc9965-inside.jpg" alt="双路 EPYC 9965 服务器内部" caption="服务器内部：水冷双路 EPYC CPU、16 条内存与 RTX 5090 显卡" >}}
 {{< fig src="uploads/platforms/server-epyc9965-chassis.jpg" alt="双路 EPYC 9965 服务器整机" caption="双路 EPYC 9965 CPU–GPU 服务器整机（闭合机箱）" >}}
 </div>
