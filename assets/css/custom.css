@@ -37,10 +37,12 @@ html:root{
 .flip-fig figcaption{margin-top:.4rem;font-size:.88rem;color:#475569;line-height:1.45}
 .flip-figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:.75rem;align-items:start;margin:.6rem 0 1rem}
 .flip-figs .flip-fig{margin:0}
-/* 计算资源：内拍照略宽、整机肖像高度受限，避免绿底/灰底撑高整行 */
-.flip-figs--computing{grid-template-columns:minmax(0,1.55fr) minmax(0,1fr)}
-.flip-figs--computing .flip-fig img{max-height:300px;object-fit:contain;background:#fff}
-@media (max-width:699.98px){.flip-figs--computing{grid-template-columns:1fr}}
+/* 计算资源：三图等高一行，顶底对齐 */
+.flip-figs--computing{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;gap:.65rem}
+.flip-figs--computing .flip-fig{display:flex;flex-direction:column;margin:0;height:100%}
+.flip-figs--computing .flip-fig img{width:100%;height:260px;max-height:none;object-fit:contain;object-position:center;background:#fff}
+.flip-figs--computing .flip-fig figcaption{margin-top:.35rem;flex:none}
+@media (max-width:699.98px){.flip-figs--computing{grid-template-columns:1fr}.flip-figs--computing .flip-fig img{height:220px}}
 .flip-tag{display:inline-block;font-size:.78rem;font-weight:600;border-radius:.25rem;padding:.05rem .45rem;margin-left:.35rem;vertical-align:middle}
 .flip-tag--plan{color:#b45309;background:#fff7ed;border:1px solid #fdba74}
 .flip-tag--ext{color:#1d4ed8;background:#eff6ff;border:1px solid #93c5fd}
