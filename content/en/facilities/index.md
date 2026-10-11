@@ -23,7 +23,7 @@ The dual EPYC 9965 server was accepted in June 2025 and is installed in Room B91
 
 <div class="flip-figs flip-figs--computing">
 {{< fig src="uploads/platforms/server-epyc9965-inside.jpg" alt="Dual EPYC 9965 server internals" caption="Internals: liquid-cooled dual EPYC CPUs, 16 DIMMs and RTX 5090 GPU" >}}
-{{< fig src="uploads/platforms/server-epyc9965-chassis.jpg" alt="Dual EPYC 9965 server, closed chassis" caption="Dual EPYC 9965 CPU–GPU server (closed chassis)" >}}
+{{< fig src="uploads/platforms/server-epyc9965-chassis-v2.jpg" alt="Dual EPYC 9965 server, closed chassis" caption="Dual EPYC 9965 CPU–GPU server (closed chassis)" >}}
 </div>
 
 ## Centrifugal pump gas–liquid visualization rig (CUP) {#cup-rig}

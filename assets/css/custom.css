@@ -39,7 +39,7 @@ html:root{
 .flip-figs .flip-fig{margin:0}
 /* 计算资源：内拍照略宽、整机肖像高度受限，避免绿底/灰底撑高整行 */
 .flip-figs--computing{grid-template-columns:minmax(0,1.55fr) minmax(0,1fr)}
-.flip-figs--computing .flip-fig img{max-height:320px;object-fit:contain;background:#f8fafc}
+.flip-figs--computing .flip-fig img{max-height:300px;object-fit:contain;background:#fff}
 @media (max-width:699.98px){.flip-figs--computing{grid-template-columns:1fr}}
 .flip-tag{display:inline-block;font-size:.78rem;font-weight:600;border-radius:.25rem;padding:.05rem .45rem;margin-left:.35rem;vertical-align:middle}
 .flip-tag--plan{color:#b45309;background:#fff7ed;border:1px solid #fdba74}
@@ -137,6 +137,7 @@ section#news .prose>p:last-child{margin-top:1.75rem}
 /* 正文字号由 prose-xl（20px）降到 17px，行宽放到约 52 个汉字；竖直间距收紧 */
 .page-body article .prose{max-width:52rem;font-size:1.0625rem;line-height:1.7}
 .page-body article .prose :where(h2){margin-top:1.65em;margin-bottom:.55em}
+.page-body article .prose :where(h2):first-of-type{margin-top:1.1em}
 .page-body article .prose :where(h3){margin-top:1.35em;margin-bottom:.45em}
 .page-body article .prose :where(p,ul,ol){margin-top:.55em;margin-bottom:.55em}
 .page-body article .prose :where(table){margin-top:.7em;margin-bottom:.7em}

@@ -23,7 +23,7 @@ date: 2026-10-09
 
 <div class="flip-figs flip-figs--computing">
 {{< fig src="uploads/platforms/server-epyc9965-inside.jpg" alt="双路 EPYC 9965 服务器内部" caption="服务器内部：水冷双路 EPYC CPU、16 条内存与 RTX 5090 显卡" >}}
-{{< fig src="uploads/platforms/server-epyc9965-chassis.jpg" alt="双路 EPYC 9965 服务器整机" caption="双路 EPYC 9965 CPU–GPU 服务器整机（闭合机箱）" >}}
+{{< fig src="uploads/platforms/server-epyc9965-chassis-v2.jpg" alt="双路 EPYC 9965 服务器整机" caption="双路 EPYC 9965 CPU–GPU 服务器整机（闭合机箱）" >}}
 </div>
 
 ## 本校离心泵气液两相可视化实验台 {#cup-rig}
